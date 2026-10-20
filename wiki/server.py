@@ -49,6 +49,8 @@ class WikiHandler(BaseHTTPRequestHandler):
         try:
             if path.startswith("/api/"):
                 self.handle_api(path, query)
+            elif path.startswith("/database-images/"):
+                self.serve_database_image(path.removeprefix("/database-images/"))
             else:
                 self.serve_frontend(path)
         except (OSError, csv.Error, UnicodeError) as error:
@@ -139,8 +141,16 @@ class WikiHandler(BaseHTTPRequestHandler):
         _, entities = read_table("entities.csv")
         entity = next((row for row in entities if row.get("id") == entity_id), None)
         if entity is None:
-            json_response(self, {"error": "Entity not found"}, 404)
-            return
+            try:
+                _, aliases = read_table("entity_aliases.csv")
+            except FileNotFoundError:
+                aliases = []
+            canonical_id = next((row.get("entity_id") for row in aliases if row.get("alias_id") == entity_id), None)
+            entity = next((row for row in entities if row.get("id") == canonical_id), None)
+            if entity is None:
+                json_response(self, {"error": "Entity not found"}, 404)
+                return
+            entity_id = entity.get("id", entity_id)
 
         entity_by_id = {row.get("id", ""): row for row in entities}
         _, metadata = read_table("metadata.csv")
@@ -207,6 +217,21 @@ class WikiHandler(BaseHTTPRequestHandler):
         self.send_header("Content-Type", content_type)
         self.send_header("Content-Length", str(len(body)))
         self.send_header("Cache-Control", "no-store")
+        self.end_headers()
+        self.wfile.write(body)
+
+    def serve_database_image(self, filename: str) -> None:
+        image_dir = (DATABASE_DIR / "images").resolve()
+        requested = (image_dir / filename).resolve()
+        if Path(filename).name != filename or image_dir not in requested.parents or not requested.is_file():
+            self.send_error(404)
+            return
+        body = requested.read_bytes()
+        content_type = mimetypes.guess_type(requested.name)[0] or "application/octet-stream"
+        self.send_response(200)
+        self.send_header("Content-Type", content_type)
+        self.send_header("Content-Length", str(len(body)))
+        self.send_header("Cache-Control", "public, max-age=3600")
         self.end_headers()
         self.wfile.write(body)
 

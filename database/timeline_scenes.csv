@@ -121,67 +121,67 @@ phantom-menace:scene:119,phantom-menace,119,EXT. NABOO GRASS PLAINS - DAY,databa
 phantom-menace:scene:120,phantom-menace,120,INT. MAIN HANGER - COURTYARD - DAY,
 phantom-menace:scene:121,phantom-menace,121,INT. TURRET ROOM - NABOO PALACE - LATE DAY,databank:1-the-phantom-menace:locations:naboo
 phantom-menace:scene:122,phantom-menace,122,EXT. THEED - CENTRAL PLAZA - FUNERAL TEMPLE STEPS - SUNSET,
-attack-clones:scene:001,attack-clones,1,"EXT. CORUSCANT, LANDING PLATFORM - DAY",databank:2-attack-of-the-clones:locations:coruscant
+attack-clones:scene:001,attack-clones,1,"EXT. CORUSCANT, LANDING PLATFORM - DAY",databank:1-the-phantom-menace:locations:coruscant
 attack-clones:scene:002,attack-clones,2,INT. SENATE CHAMBER - DAY,
 attack-clones:scene:003,attack-clones,3,INT. CHANCELLOR'S OFFICE - DAY,
 attack-clones:scene:004,attack-clones,4,"INT. SENATE BUILDING, APARTMENT CORRIDOR - EVENING",
 attack-clones:scene:005,attack-clones,5,"INT. SENATE BUILDING, APARTMENT - EVENING",
-attack-clones:scene:006,attack-clones,6,"INT. JEDI TEMPLE, CORRIDOR - EVENING",databank:2-attack-of-the-clones:locations:jedi-temple
+attack-clones:scene:006,attack-clones,6,"INT. JEDI TEMPLE, CORRIDOR - EVENING",databank:1-the-phantom-menace:locations:jedi-temple
 attack-clones:scene:007,attack-clones,7,"INT. SENATE BUILDING, AMIDALA'S APARTMENT, MAIN R0OM - NIGHT",
 attack-clones:scene:008,attack-clones,8,"INT. SENATE BUILDING, AMIDALA'S APARTMENT, MAIN ROOM - NIGHT",
 attack-clones:scene:009,attack-clones,9,"INT. SENATE BUILDING, AMIDALA'S APARTMENT - NIGHT",
-attack-clones:scene:010,attack-clones,10,"EXT. CITYSCAPE, CORUSCANT - NIGHT",databank:2-attack-of-the-clones:locations:coruscant
+attack-clones:scene:010,attack-clones,10,"EXT. CITYSCAPE, CORUSCANT - NIGHT",databank:1-the-phantom-menace:locations:coruscant
 attack-clones:scene:011,attack-clones,11,EXT. ENTERTAINMENT STREET - NIGHT,
 attack-clones:scene:012,attack-clones,12,INT. NIGHTCLUB - NIGHT,
 attack-clones:scene:013,attack-clones,13,EXT. ALLEY OUTSIDE NIGHTCLUB - NIGHT,
 attack-clones:scene:014,attack-clones,14,"INT. SENATE BUILDING, AMIDALA'S APARTMENT - DAY",
-attack-clones:scene:015,attack-clones,15,"INT. CORUSCANT, SPACEPORT FREIGHTER DOCKS, TRANSPORT BUS - DAY",databank:2-attack-of-the-clones:locations:coruscant
-attack-clones:scene:016,attack-clones,16,"INT. JEDI TEMPLE, ANALYSIS CUBICLES - LATE DAY",databank:2-attack-of-the-clones:locations:jedi-temple
+attack-clones:scene:015,attack-clones,15,"INT. CORUSCANT, SPACEPORT FREIGHTER DOCKS, TRANSPORT BUS - DAY",databank:1-the-phantom-menace:locations:coruscant
+attack-clones:scene:016,attack-clones,16,"INT. JEDI TEMPLE, ANALYSIS CUBICLES - LATE DAY",databank:1-the-phantom-menace:locations:jedi-temple
 attack-clones:scene:017,attack-clones,17,"INT. CORUSCANT, DEX'S DINER - MORNING",databank:2-attack-of-the-clones:locations:dexs-diner
-attack-clones:scene:018,attack-clones,18,"INT. NABOO PALACE, THRONE ROOM - AFTERNOON",databank:2-attack-of-the-clones:locations:naboo
-attack-clones:scene:019,attack-clones,19,"INT. JEDI TEMPLE, ARCHIVES LIBRARY - DAY",databank:2-attack-of-the-clones:locations:jedi-temple
+attack-clones:scene:018,attack-clones,18,"INT. NABOO PALACE, THRONE ROOM - AFTERNOON",databank:1-the-phantom-menace:locations:naboo
+attack-clones:scene:019,attack-clones,19,"INT. JEDI TEMPLE, ARCHIVES LIBRARY - DAY",databank:1-the-phantom-menace:locations:jedi-temple
 attack-clones:scene:020,attack-clones,20,"INT. PADME'S PARENTS' HOUSE, MAIN ROOM - AFTERNOON",
 attack-clones:scene:021,attack-clones,21,EXT. PADME'S PARENTS' GARDEN - AFTERNOON,
 attack-clones:scene:022,attack-clones,22,"INT. PADME'S PARENTS' HOUSE, MAIN ROOM - AFTERNOON",
 attack-clones:scene:023,attack-clones,23,EXT. PADME'S PARENTS' GARDEN - AFTERNOON,
 attack-clones:scene:024,attack-clones,24,"INT. PADME'S PARENTS' HOUSE, PADME'S ROOM - AFTERNOON",
-attack-clones:scene:025,attack-clones,25,"INT. JEDI TEMPLE, TRAINING VERANDA - DAY",databank:2-attack-of-the-clones:locations:jedi-temple
-attack-clones:scene:026,attack-clones,26,"EXT. NABOO LAKE RETREAT, LODGE, GARDEN TERRACEM LATE AFTERNOON",databank:2-attack-of-the-clones:locations:naboo
-attack-clones:scene:027,attack-clones,27,"EXT. CORUSCANT, LANDING PLATFORM - LATE AFTERNOON",databank:2-attack-of-the-clones:locations:coruscant
-attack-clones:scene:028,attack-clones,28,"INT. NABOO LAKE RETREAT, DINING ROOM - LATE AFTERNOON",databank:2-attack-of-the-clones:locations:naboo
-attack-clones:scene:029,attack-clones,29,"INT. NABOO LAKE RETREAT, LODGE, FIREPLACE ALCOVE - TWILIGHT",databank:2-attack-of-the-clones:locations:naboo
+attack-clones:scene:025,attack-clones,25,"INT. JEDI TEMPLE, TRAINING VERANDA - DAY",databank:1-the-phantom-menace:locations:jedi-temple
+attack-clones:scene:026,attack-clones,26,"EXT. NABOO LAKE RETREAT, LODGE, GARDEN TERRACEM LATE AFTERNOON",databank:1-the-phantom-menace:locations:naboo
+attack-clones:scene:027,attack-clones,27,"EXT. CORUSCANT, LANDING PLATFORM - LATE AFTERNOON",databank:1-the-phantom-menace:locations:coruscant
+attack-clones:scene:028,attack-clones,28,"INT. NABOO LAKE RETREAT, DINING ROOM - LATE AFTERNOON",databank:1-the-phantom-menace:locations:naboo
+attack-clones:scene:029,attack-clones,29,"INT. NABOO LAKE RETREAT, LODGE, FIREPLACE ALCOVE - TWILIGHT",databank:1-the-phantom-menace:locations:naboo
 attack-clones:scene:030,attack-clones,30,"INT. TIPOCA CITY, CORRIDOR ENTRANCE",
 attack-clones:scene:031,attack-clones,31,"INT. TIPOCA CITY, PRIME MINISTER OFFICE - DAY",
-attack-clones:scene:032,attack-clones,32,"EXT. NABOO, MOUNTAIN MEADOW - LATER AFTERNOON",databank:2-attack-of-the-clones:locations:naboo
+attack-clones:scene:032,attack-clones,32,"EXT. NABOO, MOUNTAIN MEADOW - LATER AFTERNOON",databank:1-the-phantom-menace:locations:naboo
 attack-clones:scene:033,attack-clones,33,"EXT. TIPOCA CITY, PARADE GROUND (RAINSTORM) - DAY",
 attack-clones:scene:034,attack-clones,34,"INT. TIPOCA CITY, CLONE CENTER, COMMINSSARY - DAY",
 attack-clones:scene:035,attack-clones,35,"INT. TIPOCA CITY, CLONE CENTER, BARRACKS - DAY",
 attack-clones:scene:036,attack-clones,36,"INT. TIPOCA CITY, CLONE CENTER, CLASSROOM - DAY",
 attack-clones:scene:037,attack-clones,37,"INT. TIPOCA CITY, CLONE CENTER, HATCHERY - DAY",
 attack-clones:scene:038,attack-clones,38,"INT. TIPOCA CITY, APARTMENT - LATE DAY",
-attack-clones:scene:039,attack-clones,39,"EXT. JEDI TEMPLE, LIVINF QUARTERS - EARLY EVENING",databank:2-attack-of-the-clones:locations:jedi-temple
-attack-clones:scene:040,attack-clones,40,"INT. NABOO LAKE RETREAT, ANAKIN'S BEDROOM - NIGHT",databank:2-attack-of-the-clones:locations:naboo
-attack-clones:scene:041,attack-clones,41,"EXT. NABOO LAKE RETREAT, LODGE, BALCONY OVERLOOKING GARDENS - MORNING",databank:2-attack-of-the-clones:locations:naboo
+attack-clones:scene:039,attack-clones,39,"EXT. JEDI TEMPLE, LIVINF QUARTERS - EARLY EVENING",databank:1-the-phantom-menace:locations:jedi-temple
+attack-clones:scene:040,attack-clones,40,"INT. NABOO LAKE RETREAT, ANAKIN'S BEDROOM - NIGHT",databank:1-the-phantom-menace:locations:naboo
+attack-clones:scene:041,attack-clones,41,"EXT. NABOO LAKE RETREAT, LODGE, BALCONY OVERLOOKING GARDENS - MORNING",databank:1-the-phantom-menace:locations:naboo
 attack-clones:scene:042,attack-clones,42,"INT. TIPOCA CITY, CORRIDOR - DAY",
 attack-clones:scene:043,attack-clones,43,"INT. TIPOCA CITY, FETT APARTMENT - DAY",
-attack-clones:scene:044,attack-clones,44,"EXT. TATOOINE, MOS ESPA STREETS AND WATTO'S SHIP - DAY",databank:2-attack-of-the-clones:locations:mos-espa
+attack-clones:scene:044,attack-clones,44,"EXT. TATOOINE, MOS ESPA STREETS AND WATTO'S SHIP - DAY",databank:1-the-phantom-menace:locations:mos-espa
 attack-clones:scene:045,attack-clones,45,"INT. TIPOCA CITY, CORRIDOR - DAY",
 attack-clones:scene:046,attack-clones,46,"EXT. TIPOCA CITY, KAMINO LANDING PLATFORM (RAINSTORM) - DAY",databank:2-attack-of-the-clones:locations:kamino
-attack-clones:scene:047,attack-clones,47,"EXT. TATOOINE, BLUFF OVERLOOKING HOMESTEAD - LATE DAY",databank:2-attack-of-the-clones:locations:tatooine
-attack-clones:scene:048,attack-clones,48,"EXT. TATOOINE, DESERT, HOMESTEAD MOISTURE FARM - LATE DAY",databank:2-attack-of-the-clones:locations:tatooine
-attack-clones:scene:049,attack-clones,49,"EXT. TATOOINE, HOMESTEAD, COURTYARD - LATE DAY",databank:2-attack-of-the-clones:locations:tatooine
-attack-clones:scene:050,attack-clones,50,"INT. TATOOINE, HOMESTEAD, KITCHEN - LATE DAY",databank:2-attack-of-the-clones:locations:tatooine
-attack-clones:scene:051,attack-clones,51,"INT. TATOOINE, HOMESTEAD, DINING AREA - LATE DAY",databank:2-attack-of-the-clones:locations:tatooine
-attack-clones:scene:052,attack-clones,52,"EXT. TATOOINE, HOMESTEAD, MOISTURE FARM - LATE DAY",databank:2-attack-of-the-clones:locations:tatooine
+attack-clones:scene:047,attack-clones,47,"EXT. TATOOINE, BLUFF OVERLOOKING HOMESTEAD - LATE DAY",databank:1-the-phantom-menace:locations:tatooine
+attack-clones:scene:048,attack-clones,48,"EXT. TATOOINE, DESERT, HOMESTEAD MOISTURE FARM - LATE DAY",databank:1-the-phantom-menace:locations:tatooine
+attack-clones:scene:049,attack-clones,49,"EXT. TATOOINE, HOMESTEAD, COURTYARD - LATE DAY",databank:1-the-phantom-menace:locations:tatooine
+attack-clones:scene:050,attack-clones,50,"INT. TATOOINE, HOMESTEAD, KITCHEN - LATE DAY",databank:1-the-phantom-menace:locations:tatooine
+attack-clones:scene:051,attack-clones,51,"INT. TATOOINE, HOMESTEAD, DINING AREA - LATE DAY",databank:1-the-phantom-menace:locations:tatooine
+attack-clones:scene:052,attack-clones,52,"EXT. TATOOINE, HOMESTEAD, MOISTURE FARM - LATE DAY",databank:1-the-phantom-menace:locations:tatooine
 attack-clones:scene:053,attack-clones,53,"INT. COCKPIT, FETT SHIP, SPACE, GEONOSIS",databank:2-attack-of-the-clones:locations:geonosis
 attack-clones:scene:054,attack-clones,54,"EXT. SPACE, GEONOSIS",databank:2-attack-of-the-clones:locations:geonosis
-attack-clones:scene:055,attack-clones,55,"INT. TATOOINE, HOMESTEAD - GARAGE (FULL MOON) - NIGHT",databank:2-attack-of-the-clones:locations:tatooine
+attack-clones:scene:055,attack-clones,55,"INT. TATOOINE, HOMESTEAD - GARAGE (FULL MOON) - NIGHT",databank:1-the-phantom-menace:locations:tatooine
 attack-clones:scene:056,attack-clones,56,INT. TUSKEN RAIDER HUTT - NIGHT,
 attack-clones:scene:057,attack-clones,57,"EXT. GEONOSIS, LANDING AREA - NIGHT",databank:2-attack-of-the-clones:locations:geonosis
-attack-clones:scene:058,attack-clones,58,"INT. CORUSCANT, CHANCELLOR'S OFFICE",databank:2-attack-of-the-clones:locations:coruscant
-attack-clones:scene:059,attack-clones,59,"INT. TATOOINE, HOMESTEAD, GARAGE - DAY",databank:2-attack-of-the-clones:locations:tatooine
-attack-clones:scene:060,attack-clones,60,"INT. CORUSCANT, JEDI TEMPLE, COUNCIL CHAMBER - DAY",databank:2-attack-of-the-clones:locations:jedi-temple
-attack-clones:scene:061,attack-clones,61,"INT. CORUSCANT, MAIN SENATE CHAMBER - DAY",databank:2-attack-of-the-clones:locations:coruscant
+attack-clones:scene:058,attack-clones,58,"INT. CORUSCANT, CHANCELLOR'S OFFICE",databank:1-the-phantom-menace:locations:coruscant
+attack-clones:scene:059,attack-clones,59,"INT. TATOOINE, HOMESTEAD, GARAGE - DAY",databank:1-the-phantom-menace:locations:tatooine
+attack-clones:scene:060,attack-clones,60,"INT. CORUSCANT, JEDI TEMPLE, COUNCIL CHAMBER - DAY",databank:1-the-phantom-menace:locations:jedi-temple
+attack-clones:scene:061,attack-clones,61,"INT. CORUSCANT, MAIN SENATE CHAMBER - DAY",databank:1-the-phantom-menace:locations:coruscant
 attack-clones:scene:062,attack-clones,62,"INT. GEONOSIS, CORRIDORS - DAY",databank:2-attack-of-the-clones:locations:geonosis
 attack-clones:scene:063,attack-clones,63,"INT. GEONOSIS, CENTRAL SQUARE - DAY",databank:2-attack-of-the-clones:locations:geonosis
 attack-clones:scene:064,attack-clones,64,INT. CONFERENCE ROOM (GEONOSIS) - DAY,databank:2-attack-of-the-clones:locations:geonosis
@@ -194,8 +194,8 @@ attack-clones:scene:070,attack-clones,70,"EXT. GEONOSIS, EXECUTION ARENA - DAY",
 attack-clones:scene:071,attack-clones,71,INT. GUNSHIP NUMBER ONE - DAY,
 attack-clones:scene:072,attack-clones,72,INT. GUNSHIP NUMBER TWO - DAY,
 attack-clones:scene:073,attack-clones,73,"INT. GEONOSIS, SECRET HANGER TOWER - LATE DAY",databank:2-attack-of-the-clones:locations:geonosis
-attack-clones:scene:074,attack-clones,74,"INT. CORUSCANT, SECRET LANDING PLATFORM - DAY",databank:2-attack-of-the-clones:locations:coruscant
-attack-clones:scene:075,attack-clones,75,"INT. JEDI TEMPLE, COUNCIL CHAMBER - SUNSET",databank:2-attack-of-the-clones:locations:jedi-temple
+attack-clones:scene:074,attack-clones,74,"INT. CORUSCANT, SECRET LANDING PLATFORM - DAY",databank:1-the-phantom-menace:locations:coruscant
+attack-clones:scene:075,attack-clones,75,"INT. JEDI TEMPLE, COUNCIL CHAMBER - SUNSET",databank:1-the-phantom-menace:locations:jedi-temple
 revenge-sith:scene:001,revenge-sith,1,3 INT. ANAKINS STARFIGHTER COCKPIT-SPACE,
 revenge-sith:scene:002,revenge-sith,2,5 INT. OBI-WAN'S STARFIGHTER COCKPIT-SPACE,
 revenge-sith:scene:003,revenge-sith,3,6 INT. OBI-WAN'S STARFIGHTER COCKPIT-SPACE,
@@ -236,90 +236,90 @@ revenge-sith:scene:037,revenge-sith,37,61 INT. HALLWAY-TRADE FEDERATION CRUISER,
 revenge-sith:scene:038,revenge-sith,38,63 INT. BRIDGE-TRADE FEDERATION CRUISER,
 revenge-sith:scene:039,revenge-sith,39,65 INT. POD BAY-TRADE FEDERATION CRUISER-SPACE,
 revenge-sith:scene:040,revenge-sith,40,67 INT. BRIDGE-TRADE FEDERATION CRUISER,
-revenge-sith:scene:041,revenge-sith,41,68 EXT. CORUSCANT-INDUSTRIAL LANDING PLATFORM-AFTERNOON,databank:3-revenge-of-the-sith:locations:coruscant
+revenge-sith:scene:041,revenge-sith,41,68 EXT. CORUSCANT-INDUSTRIAL LANDING PLATFORM-AFTERNOON,databank:1-the-phantom-menace:locations:coruscant
 revenge-sith:scene:042,revenge-sith,42,71 EXT. UTAPAU-LANDING PLATFORM-DAY,databank:3-revenge-of-the-sith:locations:utapau
 revenge-sith:scene:043,revenge-sith,43,72 INT. UTAPAU-CONFERENCE ROOM-GRAND CHAMBER-DAY,databank:3-revenge-of-the-sith:locations:utapau
-revenge-sith:scene:044,revenge-sith,44,73 INT. CORUSCANT-PADME'S APARTMENT-TWILIGHT,databank:3-revenge-of-the-sith:locations:padmes-apartment
+revenge-sith:scene:044,revenge-sith,44,73 INT. CORUSCANT-PADME'S APARTMENT-TWILIGHT,databank:2-attack-of-the-clones:locations:padmes-apartment
 revenge-sith:scene:045,revenge-sith,45,74 INT. POLIS MASSA-MEDICAL CENTER-DREAM,databank:3-revenge-of-the-sith:locations:polis-massa
-revenge-sith:scene:046,revenge-sith,46,75 INT. CORUSCANT-PADME'S APARTMENT-BEDROOM-NIGHT,databank:3-revenge-of-the-sith:locations:padmes-apartment
-revenge-sith:scene:047,revenge-sith,47,76 EXT. CORUSCANT-PADME'S APARTMENT-VERANDA-NIGHT,databank:3-revenge-of-the-sith:locations:padmes-apartment
-revenge-sith:scene:048,revenge-sith,48,77 INT. CORUSCANT-JEDI TEMPLE-YODAS QUARTERS-DAY,databank:3-revenge-of-the-sith:locations:jedi-temple
-revenge-sith:scene:049,revenge-sith,49,79 INT. CORUSCANT-JEDI TEMPLE-BRIEFING ROOM-DAY,databank:3-revenge-of-the-sith:locations:jedi-temple
-revenge-sith:scene:050,revenge-sith,50,80 INT. CORUSCANT-CHANCELLOR'S OFFICE-DAY,databank:3-revenge-of-the-sith:locations:coruscant
-revenge-sith:scene:051,revenge-sith,51,81 INT. CORUSCANT-BAIL ORGANA'S OFFICE-DAY,databank:3-revenge-of-the-sith:locations:coruscant
-revenge-sith:scene:052,revenge-sith,52,83 INT. CORUSCANT-JEDI TEMPLE-COUNCIL CHAMBERS-DAY,databank:3-revenge-of-the-sith:locations:jedi-temple
-revenge-sith:scene:053,revenge-sith,53,84 INT. CORUSCANT-JEDI TEMPLE-MASSIVE MAIN HALLWAY AND ALCOVE-LATE AFTERNOON,databank:3-revenge-of-the-sith:locations:jedi-temple
-revenge-sith:scene:054,revenge-sith,54,86 INT. CORUSCANT-JEDI GUNSHIP-DAY,databank:3-revenge-of-the-sith:locations:coruscant
-revenge-sith:scene:055,revenge-sith,55,87 EXT. CORUSCANT-PADME'S APARTMENT-VERANDA-SUNSET,databank:3-revenge-of-the-sith:locations:padmes-apartment
+revenge-sith:scene:046,revenge-sith,46,75 INT. CORUSCANT-PADME'S APARTMENT-BEDROOM-NIGHT,databank:2-attack-of-the-clones:locations:padmes-apartment
+revenge-sith:scene:047,revenge-sith,47,76 EXT. CORUSCANT-PADME'S APARTMENT-VERANDA-NIGHT,databank:2-attack-of-the-clones:locations:padmes-apartment
+revenge-sith:scene:048,revenge-sith,48,77 INT. CORUSCANT-JEDI TEMPLE-YODAS QUARTERS-DAY,databank:1-the-phantom-menace:locations:jedi-temple
+revenge-sith:scene:049,revenge-sith,49,79 INT. CORUSCANT-JEDI TEMPLE-BRIEFING ROOM-DAY,databank:1-the-phantom-menace:locations:jedi-temple
+revenge-sith:scene:050,revenge-sith,50,80 INT. CORUSCANT-CHANCELLOR'S OFFICE-DAY,databank:1-the-phantom-menace:locations:coruscant
+revenge-sith:scene:051,revenge-sith,51,81 INT. CORUSCANT-BAIL ORGANA'S OFFICE-DAY,databank:1-the-phantom-menace:locations:coruscant
+revenge-sith:scene:052,revenge-sith,52,83 INT. CORUSCANT-JEDI TEMPLE-COUNCIL CHAMBERS-DAY,databank:1-the-phantom-menace:locations:jedi-temple
+revenge-sith:scene:053,revenge-sith,53,84 INT. CORUSCANT-JEDI TEMPLE-MASSIVE MAIN HALLWAY AND ALCOVE-LATE AFTERNOON,databank:1-the-phantom-menace:locations:jedi-temple
+revenge-sith:scene:054,revenge-sith,54,86 INT. CORUSCANT-JEDI GUNSHIP-DAY,databank:1-the-phantom-menace:locations:coruscant
+revenge-sith:scene:055,revenge-sith,55,87 EXT. CORUSCANT-PADME'S APARTMENT-VERANDA-SUNSET,databank:2-attack-of-the-clones:locations:padmes-apartment
 revenge-sith:scene:056,revenge-sith,56,88 INT. CORUSCANT-GALAXIES OPERA HOUSE-NIGHT,databank:3-revenge-of-the-sith:locations:galaxies-opera-house
 revenge-sith:scene:057,revenge-sith,57,90 INT. KASHYYYK-HOLOGRAM AREA-DAY,databank:3-revenge-of-the-sith:locations:kashyyyk
 revenge-sith:scene:058,revenge-sith,58,91 INT. KASHYYYK-HOLOGRAM AREA-DAY,databank:3-revenge-of-the-sith:locations:kashyyyk
-revenge-sith:scene:059,revenge-sith,59,94 INT. CORUSCANT-PADME'S APARTMENT-LIVING ROOM-EARLY MORNING,databank:3-revenge-of-the-sith:locations:padmes-apartment
-revenge-sith:scene:060,revenge-sith,60,95 INT. CORUSCANT-PADME'S APARTMENT-DAY,databank:3-revenge-of-the-sith:locations:padmes-apartment
-revenge-sith:scene:061,revenge-sith,61,96 EXT. CORUSCANT-CLONE LANDING PLATFORM-DAY,databank:3-revenge-of-the-sith:locations:coruscant
+revenge-sith:scene:059,revenge-sith,59,94 INT. CORUSCANT-PADME'S APARTMENT-LIVING ROOM-EARLY MORNING,databank:2-attack-of-the-clones:locations:padmes-apartment
+revenge-sith:scene:060,revenge-sith,60,95 INT. CORUSCANT-PADME'S APARTMENT-DAY,databank:2-attack-of-the-clones:locations:padmes-apartment
+revenge-sith:scene:061,revenge-sith,61,96 EXT. CORUSCANT-CLONE LANDING PLATFORM-DAY,databank:1-the-phantom-menace:locations:coruscant
 revenge-sith:scene:062,revenge-sith,62,98 INT. REPUBLIC BATTLE CRUISER-HANGAR-SPACE,
-revenge-sith:scene:063,revenge-sith,63,100 EXT. CORUSCANT-CITYSCAPE-CHANCELLOR'S TRANSPORT-DAY,databank:3-revenge-of-the-sith:locations:coruscant
-revenge-sith:scene:064,revenge-sith,64,101 INT. CORUSCANT-SENATE OFFICE BUILDING-MAIN HALLWAY-DAY,databank:3-revenge-of-the-sith:locations:coruscant
+revenge-sith:scene:063,revenge-sith,63,100 EXT. CORUSCANT-CITYSCAPE-CHANCELLOR'S TRANSPORT-DAY,databank:1-the-phantom-menace:locations:coruscant
+revenge-sith:scene:064,revenge-sith,64,101 INT. CORUSCANT-SENATE OFFICE BUILDING-MAIN HALLWAY-DAY,databank:1-the-phantom-menace:locations:coruscant
 revenge-sith:scene:065,revenge-sith,65,102 INT. POLIS MASSA-MEDICAL CENTER-DREAM,databank:3-revenge-of-the-sith:locations:polis-massa
-revenge-sith:scene:066,revenge-sith,66,103 INT. CORUSCANT-PADME'S APARTMENT-LANDING ROOM-DAY,databank:3-revenge-of-the-sith:locations:padmes-apartment
+revenge-sith:scene:066,revenge-sith,66,103 INT. CORUSCANT-PADME'S APARTMENT-LANDING ROOM-DAY,databank:2-attack-of-the-clones:locations:padmes-apartment
 revenge-sith:scene:067,revenge-sith,67,105 INT. UTAPAU-LANDING PLATFORM-DAY,databank:3-revenge-of-the-sith:locations:utapau
 revenge-sith:scene:068,revenge-sith,68,106 EXT. UTAPAU-OBSERVATION DECK-DAY,databank:3-revenge-of-the-sith:locations:utapau
 revenge-sith:scene:069,revenge-sith,69,109 INT. UTAPAU-CITY-DRAGON CORRAL-DAY,databank:3-revenge-of-the-sith:locations:utapau
 revenge-sith:scene:070,revenge-sith,70,111 INT. UTAPAU-CONFERENCE ROOM-GRAND CHAMBER-DAY,databank:3-revenge-of-the-sith:locations:utapau
 revenge-sith:scene:071,revenge-sith,71,112 INT. UTAPAU-TENTH LEVEL-CONTROL CENTER-DAY,databank:3-revenge-of-the-sith:locations:utapau
-revenge-sith:scene:072,revenge-sith,72,116 INT. CORUSCANT-CHANCELLOR'S OFFICE-SUNSET,databank:3-revenge-of-the-sith:locations:coruscant
-revenge-sith:scene:073,revenge-sith,73,117 INT. CORUSCANT-JEDI WAR ROOM-EARLY EVENING,databank:3-revenge-of-the-sith:locations:coruscant
-revenge-sith:scene:074,revenge-sith,74,118 INT. CORUSCANT-CHANCELLOR'S OFFICE-EARLY EVENING,databank:3-revenge-of-the-sith:locations:coruscant
+revenge-sith:scene:072,revenge-sith,72,116 INT. CORUSCANT-CHANCELLOR'S OFFICE-SUNSET,databank:1-the-phantom-menace:locations:coruscant
+revenge-sith:scene:073,revenge-sith,73,117 INT. CORUSCANT-JEDI WAR ROOM-EARLY EVENING,databank:1-the-phantom-menace:locations:coruscant
+revenge-sith:scene:074,revenge-sith,74,118 INT. CORUSCANT-CHANCELLOR'S OFFICE-EARLY EVENING,databank:1-the-phantom-menace:locations:coruscant
 revenge-sith:scene:075,revenge-sith,75,121 EXT. UTAPAU-WINDMILLS-DAY,databank:3-revenge-of-the-sith:locations:utapau
 revenge-sith:scene:076,revenge-sith,76,123 EXT. UTAPAU-SECRET LANDING PLATFORM-DAY,databank:3-revenge-of-the-sith:locations:utapau
 revenge-sith:scene:077,revenge-sith,77,124 INT. JEDI GUNSHIP-LANDING PLATFORM-EARLY EVENING,
-revenge-sith:scene:078,revenge-sith,78,125 INT. CORUSCANT-JEDI COUNCIL/PADME'S APARTMENT-EARLY EVENING,databank:3-revenge-of-the-sith:locations:padmes-apartment
-revenge-sith:scene:079,revenge-sith,79,128 INT. CORUSCANT-CHANCELLOR’S OFFICE-EARLY EVENING,databank:3-revenge-of-the-sith:locations:coruscant
-revenge-sith:scene:080,revenge-sith,80,130 INT. CORUSCANT-CHANCELLOR'S OFFICE-EVENING,databank:3-revenge-of-the-sith:locations:coruscant
+revenge-sith:scene:078,revenge-sith,78,125 INT. CORUSCANT-JEDI COUNCIL/PADME'S APARTMENT-EARLY EVENING,databank:2-attack-of-the-clones:locations:padmes-apartment
+revenge-sith:scene:079,revenge-sith,79,128 INT. CORUSCANT-CHANCELLOR’S OFFICE-EARLY EVENING,databank:1-the-phantom-menace:locations:coruscant
+revenge-sith:scene:080,revenge-sith,80,130 INT. CORUSCANT-CHANCELLOR'S OFFICE-EVENING,databank:1-the-phantom-menace:locations:coruscant
 revenge-sith:scene:081,revenge-sith,81,132 EXT. UTAPAU-TENTH LEVEL-LANDIXG PLATFORM-DAY,databank:3-revenge-of-the-sith:locations:utapau
 revenge-sith:scene:082,revenge-sith,82,133 EXT. MYGEETO-DAWN,databank:3-revenge-of-the-sith:locations:mygeeto
 revenge-sith:scene:083,revenge-sith,83,134 EXT. FELUCIA-FOREST-DAY,databank:3-revenge-of-the-sith:locations:felucia
 revenge-sith:scene:084,revenge-sith,84,137 INT. CATO NEIMOIDIA-COCKPIT CLONE FIGHTER-DAY,databank:3-revenge-of-the-sith:locations:cato-neimoidia
 revenge-sith:scene:085,revenge-sith,85,138 INT. CATO NEIMOIDIA-JEDI STARFIGHTER-DAY,databank:3-revenge-of-the-sith:locations:cato-neimoidia
-revenge-sith:scene:086,revenge-sith,86,141 INT. CORUSCANT-CHANCELLOR'S OFFICE-NIGHT,databank:3-revenge-of-the-sith:locations:coruscant
+revenge-sith:scene:086,revenge-sith,86,141 INT. CORUSCANT-CHANCELLOR'S OFFICE-NIGHT,databank:1-the-phantom-menace:locations:coruscant
 revenge-sith:scene:087,revenge-sith,87,142 EXT. KASHYYYK-MEETING HALL BALCONY-DAY,databank:3-revenge-of-the-sith:locations:kashyyyk
-revenge-sith:scene:088,revenge-sith,88,145 INT. CORUSCANT-JEDI TEMPLE-BATTLE-NIGHT,databank:3-revenge-of-the-sith:locations:jedi-temple
-revenge-sith:scene:089,revenge-sith,89,146 INT. CORUSCANT-PADME'S APARTMENT-PRE-DAWN,databank:3-revenge-of-the-sith:locations:padmes-apartment
-revenge-sith:scene:090,revenge-sith,90,148 EXT. CORUSCANT-JEDI TEMPLE-LANDING PLATFORM-PRE-DAWN,databank:3-revenge-of-the-sith:locations:jedi-temple
+revenge-sith:scene:088,revenge-sith,88,145 INT. CORUSCANT-JEDI TEMPLE-BATTLE-NIGHT,databank:1-the-phantom-menace:locations:jedi-temple
+revenge-sith:scene:089,revenge-sith,89,146 INT. CORUSCANT-PADME'S APARTMENT-PRE-DAWN,databank:2-attack-of-the-clones:locations:padmes-apartment
+revenge-sith:scene:090,revenge-sith,90,148 EXT. CORUSCANT-JEDI TEMPLE-LANDING PLATFORM-PRE-DAWN,databank:1-the-phantom-menace:locations:jedi-temple
 revenge-sith:scene:091,revenge-sith,91,152 EXT. KASHYYYK-LAKE ON VILLAGE EDGE-DUSK,databank:3-revenge-of-the-sith:locations:kashyyyk
 revenge-sith:scene:092,revenge-sith,92,153 EXT. KASHYYYK-HILLS OVERLOOKING LAKE-DUSK,databank:3-revenge-of-the-sith:locations:kashyyyk
-revenge-sith:scene:093,revenge-sith,93,154 EXT. CORUSCANT-SENATE OFFICE BUILDING-UNDERGROUND STARSHIP LANDING PLATFORM-DAY,databank:3-revenge-of-the-sith:locations:coruscant
+revenge-sith:scene:093,revenge-sith,93,154 EXT. CORUSCANT-SENATE OFFICE BUILDING-UNDERGROUND STARSHIP LANDING PLATFORM-DAY,databank:1-the-phantom-menace:locations:coruscant
 revenge-sith:scene:094,revenge-sith,94,156 INT. ALDERAAN-STARCRUISER-HALLWAY-DAY,databank:3-revenge-of-the-sith:locations:alderaan
 revenge-sith:scene:095,revenge-sith,95,157 EXT. UTAPAU-SINKHOLE WALL-LATE DAY,databank:3-revenge-of-the-sith:locations:utapau
 revenge-sith:scene:096,revenge-sith,96,160 INT. GENERAL GRIEVOUS'S STARFIGHTER-SPACE,
-revenge-sith:scene:097,revenge-sith,97,161 INT. CORUSCANT-PADME’SAPARTMENT-PRE-DAWN,databank:3-revenge-of-the-sith:locations:coruscant
+revenge-sith:scene:097,revenge-sith,97,161 INT. CORUSCANT-PADME’SAPARTMENT-PRE-DAWN,databank:1-the-phantom-menace:locations:coruscant
 revenge-sith:scene:098,revenge-sith,98,164 INT. ALDERAAN-STARCRUISER-HALLWAY-DAY,databank:3-revenge-of-the-sith:locations:alderaan
 revenge-sith:scene:099,revenge-sith,99,166 INT. MUSTAFAR-MAIN CONTROL CENTER-DAY,databank:3-revenge-of-the-sith:locations:mustafar
 revenge-sith:scene:100,revenge-sith,100,167 INT. CRUISER-COCKPIT,
-revenge-sith:scene:101,revenge-sith,101,168 EXT. CORUSCANT-SENATE LANDING PLATFORM-LATE DAY,databank:3-revenge-of-the-sith:locations:coruscant
+revenge-sith:scene:101,revenge-sith,101,168 EXT. CORUSCANT-SENATE LANDING PLATFORM-LATE DAY,databank:1-the-phantom-menace:locations:coruscant
 revenge-sith:scene:102,revenge-sith,102,172 INT. MUSTAFAR-MAIN CONTROL CENTER-DAY,databank:3-revenge-of-the-sith:locations:mustafar
-revenge-sith:scene:103,revenge-sith,103,174 INT. CORUSCANT-JEDI TEMPLE-MAIN ENTRANCE-LATE DAY,databank:3-revenge-of-the-sith:locations:jedi-temple
-revenge-sith:scene:104,revenge-sith,104,176 INT. CORUSCANT-SENATE CHAMBER-SUNSET,databank:3-revenge-of-the-sith:locations:coruscant
-revenge-sith:scene:105,revenge-sith,105,177 INT. CORUSCANT-JEDI TEMPLE-HALLWAY-SUNSET,databank:3-revenge-of-the-sith:locations:jedi-temple
-revenge-sith:scene:106,revenge-sith,106,179 INT. CORUSCANT-SENATE CHAMBER-SUNSET,databank:3-revenge-of-the-sith:locations:coruscant
-revenge-sith:scene:107,revenge-sith,107,181 INT. CORUSCANT-SENATE CHAMBER-SUNSET,databank:3-revenge-of-the-sith:locations:coruscant
+revenge-sith:scene:103,revenge-sith,103,174 INT. CORUSCANT-JEDI TEMPLE-MAIN ENTRANCE-LATE DAY,databank:1-the-phantom-menace:locations:jedi-temple
+revenge-sith:scene:104,revenge-sith,104,176 INT. CORUSCANT-SENATE CHAMBER-SUNSET,databank:1-the-phantom-menace:locations:coruscant
+revenge-sith:scene:105,revenge-sith,105,177 INT. CORUSCANT-JEDI TEMPLE-HALLWAY-SUNSET,databank:1-the-phantom-menace:locations:jedi-temple
+revenge-sith:scene:106,revenge-sith,106,179 INT. CORUSCANT-SENATE CHAMBER-SUNSET,databank:1-the-phantom-menace:locations:coruscant
+revenge-sith:scene:107,revenge-sith,107,181 INT. CORUSCANT-SENATE CHAMBER-SUNSET,databank:1-the-phantom-menace:locations:coruscant
 revenge-sith:scene:108,revenge-sith,108,183 INT. MUSTAFAR-MAIN CONTROL CENTER-HALLWAY-DAY,databank:3-revenge-of-the-sith:locations:mustafar
-revenge-sith:scene:109,revenge-sith,109,184 INT. CORUSCANT-JEDI TEMPLE-COMPUTER ROOM-NIGHT,databank:3-revenge-of-the-sith:locations:jedi-temple
-revenge-sith:scene:110,revenge-sith,110,185 INT. CORUSCANT-JEDI TEMPLE-CONTROL CENTER-NIGHT,databank:3-revenge-of-the-sith:locations:jedi-temple
-revenge-sith:scene:111,revenge-sith,111,187 EXT. CORUSCANT -PADME'S APARTMENT-VERANDA-AFTERNOON,databank:3-revenge-of-the-sith:locations:padmes-apartment
-revenge-sith:scene:112,revenge-sith,112,191 EXT. CORUSCANT-LANDING PLATFORM-SUNSET,databank:3-revenge-of-the-sith:locations:coruscant
-revenge-sith:scene:113,revenge-sith,113,192 INT. NABOO SKIFF,databank:3-revenge-of-the-sith:locations:naboo
-revenge-sith:scene:114,revenge-sith,114,193 INT. CORUSCANT-SENATE ARENA-CHANCELLOR'S HOLDING OFFICE-SUNSET,databank:3-revenge-of-the-sith:locations:coruscant
+revenge-sith:scene:109,revenge-sith,109,184 INT. CORUSCANT-JEDI TEMPLE-COMPUTER ROOM-NIGHT,databank:1-the-phantom-menace:locations:jedi-temple
+revenge-sith:scene:110,revenge-sith,110,185 INT. CORUSCANT-JEDI TEMPLE-CONTROL CENTER-NIGHT,databank:1-the-phantom-menace:locations:jedi-temple
+revenge-sith:scene:111,revenge-sith,111,187 EXT. CORUSCANT -PADME'S APARTMENT-VERANDA-AFTERNOON,databank:2-attack-of-the-clones:locations:padmes-apartment
+revenge-sith:scene:112,revenge-sith,112,191 EXT. CORUSCANT-LANDING PLATFORM-SUNSET,databank:1-the-phantom-menace:locations:coruscant
+revenge-sith:scene:113,revenge-sith,113,192 INT. NABOO SKIFF,databank:1-the-phantom-menace:locations:naboo
+revenge-sith:scene:114,revenge-sith,114,193 INT. CORUSCANT-SENATE ARENA-CHANCELLOR'S HOLDING OFFICE-SUNSET,databank:1-the-phantom-menace:locations:coruscant
 revenge-sith:scene:115,revenge-sith,115,194 INT. MUSTAFAR-COXFERENCE ROOM-DAY,databank:3-revenge-of-the-sith:locations:mustafar
 revenge-sith:scene:116,revenge-sith,116,195 EXT. MUSTAFAR-LANDING PLATFORM-DAY,databank:3-revenge-of-the-sith:locations:mustafar
 revenge-sith:scene:117,revenge-sith,117,196 INT. CORRIDOR-SENATE ARENA-CHANCELLOR'S HOLDING OFFICE-NIGHT,
 revenge-sith:scene:118,revenge-sith,118,199 INT. CORRIDOR-SENATE ARENA-CHANCELLOR'S HOLDING OFFICE-NIGHT,
 revenge-sith:scene:119,revenge-sith,119,200 INT. MUSTAFAR-MAIN CONTROL CENTER-DAY,databank:3-revenge-of-the-sith:locations:mustafar
 revenge-sith:scene:120,revenge-sith,120,202 INT. MUSTAFAR-MAIN CONTROL CENTER-DAY,databank:3-revenge-of-the-sith:locations:mustafar
-revenge-sith:scene:121,revenge-sith,121,203 INT. CORUSCANT-SENATE CHAMRER-MAIN ARENA-NIGHT,databank:3-revenge-of-the-sith:locations:coruscant
-revenge-sith:scene:122,revenge-sith,122,207 INT. CORUSCANT-SENATE OFFICE BUILDING-WIRING CHUTE-NIGHT,databank:3-revenge-of-the-sith:locations:coruscant
-revenge-sith:scene:123,revenge-sith,123,208 INT. CORUSCANT-SENATE CHAMBER-MAIN ARENA-NIGHT,databank:3-revenge-of-the-sith:locations:coruscant
-revenge-sith:scene:124,revenge-sith,124,211 INT. CORUSCANT-BAIL ORGANA'S SPEEDER-NIGHT,databank:3-revenge-of-the-sith:locations:coruscant
+revenge-sith:scene:121,revenge-sith,121,203 INT. CORUSCANT-SENATE CHAMRER-MAIN ARENA-NIGHT,databank:1-the-phantom-menace:locations:coruscant
+revenge-sith:scene:122,revenge-sith,122,207 INT. CORUSCANT-SENATE OFFICE BUILDING-WIRING CHUTE-NIGHT,databank:1-the-phantom-menace:locations:coruscant
+revenge-sith:scene:123,revenge-sith,123,208 INT. CORUSCANT-SENATE CHAMBER-MAIN ARENA-NIGHT,databank:1-the-phantom-menace:locations:coruscant
+revenge-sith:scene:124,revenge-sith,124,211 INT. CORUSCANT-BAIL ORGANA'S SPEEDER-NIGHT,databank:1-the-phantom-menace:locations:coruscant
 revenge-sith:scene:125,revenge-sith,125,ARTOO nervously looks on. BEEPING.,
 revenge-sith:scene:126,revenge-sith,126,214 EXT. MUSTAFAR-COLLECTION PANELS-DAY,databank:3-revenge-of-the-sith:locations:mustafar
 revenge-sith:scene:127,revenge-sith,127,216 EXT. MUSTAFAR-LANDING PLATFORM-NABOO SKIFF-DAY,databank:3-revenge-of-the-sith:locations:mustafar
@@ -328,85 +328,85 @@ revenge-sith:scene:129,revenge-sith,129,221 EXT. MUSTAFAR-VOLCANO PIT-DAY,databa
 revenge-sith:scene:130,revenge-sith,130,222 INT. POLIS MASSA-OBSERVATION DOME-NIGHT,databank:3-revenge-of-the-sith:locations:polis-massa
 revenge-sith:scene:131,revenge-sith,131,226 INT. POLIS MASSA-MEDICAL CENTER-NIGHT,databank:3-revenge-of-the-sith:locations:polis-massa
 revenge-sith:scene:132,revenge-sith,132,230 INT. POLIS MASSA-MEDICAL CENTER-NIGHT,databank:3-revenge-of-the-sith:locations:polis-massa
-revenge-sith:scene:133,revenge-sith,133,231 INT. CORUSCANT-IMPERIAL REHAB CENTER-DAY,databank:3-revenge-of-the-sith:locations:coruscant
+revenge-sith:scene:133,revenge-sith,133,231 INT. CORUSCANT-IMPERIAL REHAB CENTER-DAY,databank:1-the-phantom-menace:locations:coruscant
 revenge-sith:scene:134,revenge-sith,134,233 INT. ALDERAAN CRUISER-CONFERENCE ROOM,databank:3-revenge-of-the-sith:locations:alderaan
 new-hope:scene:001,new-hope,1,INT. REBEL BLOCKADE RUNNER - MAIN PASSAGEWAY,
 new-hope:scene:002,new-hope,2,INT. REBEL BLOCKADE RUNNER,
-new-hope:scene:003,new-hope,3,EXT. TATOOINE - DESERT WASTELAND - DAY,databank:4-a-new-hope:locations:tatooine
+new-hope:scene:003,new-hope,3,EXT. TATOOINE - DESERT WASTELAND - DAY,databank:1-the-phantom-menace:locations:tatooine
 new-hope:scene:004,new-hope,4,INT. REBEL BLOCKADE RUNNER - CORRIDOR,
 new-hope:scene:005,new-hope,5,INT. REBEL BLOCKADE RUNNER - SUBHALLWAY,
 new-hope:scene:006,new-hope,6,INT. IMPERIAL STARDESTROYER,
-new-hope:scene:007,new-hope,7,EXT. TATOOINE - ANCHORHEAD SETTLEMENT - POWER STATION - DAY,databank:4-a-new-hope:locations:tatooine
+new-hope:scene:007,new-hope,7,EXT. TATOOINE - ANCHORHEAD SETTLEMENT - POWER STATION - DAY,databank:1-the-phantom-menace:locations:tatooine
 new-hope:scene:008,new-hope,8,INT. POWER STATION - DAY,
-new-hope:scene:009,new-hope,9,EXT. TATOOINE - ANCHORHEAD - SETTLEMENT - POWER STATION - DAY,databank:4-a-new-hope:locations:tatooine
+new-hope:scene:009,new-hope,9,EXT. TATOOINE - ANCHORHEAD - SETTLEMENT - POWER STATION - DAY,databank:1-the-phantom-menace:locations:tatooine
 new-hope:scene:010,new-hope,10,INT. REBEL BLOCKADE RUNNER - HALLWAY,
-new-hope:scene:011,new-hope,11,EXT. TATOOINE,databank:4-a-new-hope:locations:tatooine
+new-hope:scene:011,new-hope,11,EXT. TATOOINE,databank:1-the-phantom-menace:locations:tatooine
 new-hope:scene:012,new-hope,12,EXT. TATOOINE - DUNE SEA,databank:4-a-new-hope:locations:dune-sea
-new-hope:scene:013,new-hope,13,EXT. TATOOINE - ANCHORHEAD SETTLEMENT - POWER STATION - DAY,databank:4-a-new-hope:locations:tatooine
-new-hope:scene:014,new-hope,14,EXT. TATOOINE - DESERT - DAY,databank:4-a-new-hope:locations:tatooine
-new-hope:scene:015,new-hope,15,EXT. TATOOINE - DESERT - LARS HOMESTEAD - AFTERNOON,databank:4-a-new-hope:locations:tatooine
+new-hope:scene:013,new-hope,13,EXT. TATOOINE - ANCHORHEAD SETTLEMENT - POWER STATION - DAY,databank:1-the-phantom-menace:locations:tatooine
+new-hope:scene:014,new-hope,14,EXT. TATOOINE - DESERT - DAY,databank:1-the-phantom-menace:locations:tatooine
+new-hope:scene:015,new-hope,15,EXT. TATOOINE - DESERT - LARS HOMESTEAD - AFTERNOON,databank:1-the-phantom-menace:locations:tatooine
 new-hope:scene:016,new-hope,16,INT. LARS HOMESTEAD - GARAGE AREA - LATE AFTERNOON,
 new-hope:scene:017,new-hope,17,INT. LARS HOMESTEAD - DINING AREA,
 new-hope:scene:018,new-hope,18,INT. LARS HOMESTEAD - GARAGE,
-new-hope:scene:019,new-hope,19,EXT. TATOOINE - LARS HOMESTEAD,databank:4-a-new-hope:locations:tatooine
+new-hope:scene:019,new-hope,19,EXT. TATOOINE - LARS HOMESTEAD,databank:1-the-phantom-menace:locations:tatooine
 new-hope:scene:020,new-hope,20,INT. LARS HOMESTEAD - PLAZA,
 new-hope:scene:021,new-hope,21,INT. LARS HOMESTEAD - KITCHEN,
 new-hope:scene:022,new-hope,22,INT./EXT. LUKE'S SPEEDER - DESERT WASTELAND - TRAVELING - DAY,
-new-hope:scene:023,new-hope,23,EXT. TATOOINE - ROCK CANYON - RIDGE - DA,databank:4-a-new-hope:locations:tatooine
+new-hope:scene:023,new-hope,23,EXT. TATOOINE - ROCK CANYON - RIDGE - DA,databank:1-the-phantom-menace:locations:tatooine
 new-hope:scene:024,new-hope,24,INT. KENOBI'S DWELLING,
-new-hope:scene:025,new-hope,25,INT. DEATH STAR - CONFERENCE ROOM,databank:4-a-new-hope:locations:death-star
-new-hope:scene:026,new-hope,26,EXT. TATOOINE - WASTELAND,databank:4-a-new-hope:locations:tatooine
-new-hope:scene:027,new-hope,27,EXT. TATOOINE - LARS HOMESTEAD,databank:4-a-new-hope:locations:tatooine
-new-hope:scene:028,new-hope,28,INT. DEATH STAR - DETENTION CORRIDOR,databank:4-a-new-hope:locations:death-star
-new-hope:scene:029,new-hope,29,EXT. TATOOINE - WASTELAND,databank:4-a-new-hope:locations:tatooine
-new-hope:scene:030,new-hope,30,EXT. TATOOINE - MOS EISLEY - STREET,databank:4-a-new-hope:locations:tatooine
+new-hope:scene:025,new-hope,25,INT. DEATH STAR - CONFERENCE ROOM,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:026,new-hope,26,EXT. TATOOINE - WASTELAND,databank:1-the-phantom-menace:locations:tatooine
+new-hope:scene:027,new-hope,27,EXT. TATOOINE - LARS HOMESTEAD,databank:1-the-phantom-menace:locations:tatooine
+new-hope:scene:028,new-hope,28,INT. DEATH STAR - DETENTION CORRIDOR,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:029,new-hope,29,EXT. TATOOINE - WASTELAND,databank:1-the-phantom-menace:locations:tatooine
+new-hope:scene:030,new-hope,30,EXT. TATOOINE - MOS EISLEY - STREET,databank:1-the-phantom-menace:locations:tatooine
 new-hope:scene:031,new-hope,31,INT. TATOOINE - MOS EISLEY - CANTINA,databank:4-a-new-hope:locations:mos-eisley-cantina
-new-hope:scene:032,new-hope,32,EXT. TATOOINE - MOS EISLEY - STREET,databank:4-a-new-hope:locations:tatooine
+new-hope:scene:032,new-hope,32,EXT. TATOOINE - MOS EISLEY - STREET,databank:1-the-phantom-menace:locations:tatooine
 new-hope:scene:033,new-hope,33,INT. MOS EISLEY - CANTINA,databank:4-a-new-hope:locations:mos-eisley-cantina
-new-hope:scene:034,new-hope,34,INT. DEATH STAR - CONTROL ROOM,databank:4-a-new-hope:locations:death-star
-new-hope:scene:035,new-hope,35,EXT. TATOOINE - MOS EISLEY - STREET,databank:4-a-new-hope:locations:tatooine
-new-hope:scene:036,new-hope,36,EXT. TATOOINE - MOS EISLEY - STREET - ALLEYWAY - USED SPEEDER LOT,databank:4-a-new-hope:locations:tatooine
+new-hope:scene:034,new-hope,34,INT. DEATH STAR - CONTROL ROOM,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:035,new-hope,35,EXT. TATOOINE - MOS EISLEY - STREET,databank:1-the-phantom-menace:locations:tatooine
+new-hope:scene:036,new-hope,36,EXT. TATOOINE - MOS EISLEY - STREET - ALLEYWAY - USED SPEEDER LOT,databank:1-the-phantom-menace:locations:tatooine
 new-hope:scene:037,new-hope,37,INT. DOCKING BAY 94 - DAY,
-new-hope:scene:038,new-hope,38,EXT. TATOOINE - MOS EISLEY - STREET,databank:4-a-new-hope:locations:tatooine
+new-hope:scene:038,new-hope,38,EXT. TATOOINE - MOS EISLEY - STREET,databank:1-the-phantom-menace:locations:tatooine
 new-hope:scene:039,new-hope,39,INT. MOS EISLEY SPACEPORT - DOCKING BAY 94,databank:4-a-new-hope:locations:mos-eisley-spaceport
 new-hope:scene:040,new-hope,40,INT. MILLENNIUM FALCON,
 new-hope:scene:041,new-hope,41,INT. MILLENNIUM FALCON - COCKPIT,
-new-hope:scene:042,new-hope,42,INT. DEATH STAR - CONTROL ROOM,databank:4-a-new-hope:locations:death-star
-new-hope:scene:043,new-hope,43,INT. DEATH STAR - BLAST CHAMBER,databank:4-a-new-hope:locations:death-star
+new-hope:scene:042,new-hope,42,INT. DEATH STAR - CONTROL ROOM,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:043,new-hope,43,INT. DEATH STAR - BLAST CHAMBER,databank:3-revenge-of-the-sith:locations:death-star
 new-hope:scene:044,new-hope,44,INT. MILLENNIUM FALCON - CENTRAL HOLD AREA,
-new-hope:scene:045,new-hope,45,INT. DEATH STAR - CONFERENCE ROOM,databank:4-a-new-hope:locations:death-star
+new-hope:scene:045,new-hope,45,INT. DEATH STAR - CONFERENCE ROOM,databank:3-revenge-of-the-sith:locations:death-star
 new-hope:scene:046,new-hope,46,INT. MILLENNIUM FALCON - COCKPIT,
-new-hope:scene:047,new-hope,47,EXT. DEATH STAR - HUGE PORT DOORS,databank:4-a-new-hope:locations:death-star
-new-hope:scene:048,new-hope,48,INT. DEATH STAR - DOCKING BAY 2037,databank:4-a-new-hope:locations:death-star
-new-hope:scene:049,new-hope,49,INT. DEATH STAR - HANGAR 2037,databank:4-a-new-hope:locations:death-star
-new-hope:scene:050,new-hope,50,INT. DEATH STAR - CONFERENCE ROOM,databank:4-a-new-hope:locations:death-star
-new-hope:scene:051,new-hope,51,INT. DEATH STAR - DOCKING BAY 2037,databank:4-a-new-hope:locations:death-star
+new-hope:scene:047,new-hope,47,EXT. DEATH STAR - HUGE PORT DOORS,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:048,new-hope,48,INT. DEATH STAR - DOCKING BAY 2037,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:049,new-hope,49,INT. DEATH STAR - HANGAR 2037,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:050,new-hope,50,INT. DEATH STAR - CONFERENCE ROOM,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:051,new-hope,51,INT. DEATH STAR - DOCKING BAY 2037,databank:3-revenge-of-the-sith:locations:death-star
 new-hope:scene:052,new-hope,52,INT. MILLENNIUM FALCON - HALLWAY,
-new-hope:scene:053,new-hope,53,INT. DEATH STAR - MAIN FORWARD BAY,databank:4-a-new-hope:locations:death-star
-new-hope:scene:054,new-hope,54,INT. DEATH STAR - FORWARD BAY - COMMAND OFFICE,databank:4-a-new-hope:locations:death-star
-new-hope:scene:055,new-hope,55,INT. DEATH STAR - DETENTION AREA - ELEVATOR TUBE,databank:4-a-new-hope:locations:death-star
-new-hope:scene:056,new-hope,56,INT. DEATH STAR - INTERIOR ELEVATOR - DETENTION SECURITY AREA,databank:4-a-new-hope:locations:death-star
+new-hope:scene:053,new-hope,53,INT. DEATH STAR - MAIN FORWARD BAY,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:054,new-hope,54,INT. DEATH STAR - FORWARD BAY - COMMAND OFFICE,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:055,new-hope,55,INT. DEATH STAR - DETENTION AREA - ELEVATOR TUBE,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:056,new-hope,56,INT. DEATH STAR - INTERIOR ELEVATOR - DETENTION SECURITY AREA,databank:3-revenge-of-the-sith:locations:death-star
 new-hope:scene:057,new-hope,57,INT. DETENTION AREA,
-new-hope:scene:058,new-hope,58,INT. DEATH STAR - CELL ROW,databank:4-a-new-hope:locations:death-star
-new-hope:scene:059,new-hope,59,INT. DEATH STAR - CONFERENCE ROOM,databank:4-a-new-hope:locations:death-star
-new-hope:scene:060,new-hope,60,INT. DEATH STAR - DETENTION AREA - HALLWAY,databank:4-a-new-hope:locations:death-star
-new-hope:scene:061,new-hope,61,INT. DEATH STAR - GARBAGE ROOM,databank:4-a-new-hope:locations:death-star
-new-hope:scene:062,new-hope,62,INT. DEATH STAR - MAIN FORWARD BAY - SERVICE PANEL,databank:4-a-new-hope:locations:death-star
-new-hope:scene:063,new-hope,63,INT. DEATH STAR - GARBAGE ROOM,databank:4-a-new-hope:locations:death-star
-new-hope:scene:064,new-hope,64,INT. DEATH STAR - MAIN FORWARD BAY - SERVICE PANEL,databank:4-a-new-hope:locations:death-star
-new-hope:scene:065,new-hope,65,INT. DEATH STAR - GARBAGE ROOM,databank:4-a-new-hope:locations:death-star
-new-hope:scene:066,new-hope,66,INT. DEATH STAR - MAIN FORWARD BAY - SERVICE PANEL,databank:4-a-new-hope:locations:death-star
-new-hope:scene:067,new-hope,67,INT. DEATH STAR - GARBAGE ROOM,databank:4-a-new-hope:locations:death-star
-new-hope:scene:068,new-hope,68,INT. DEATH STAR - MAIN FORWARD BAY - SERVICE PANEL,databank:4-a-new-hope:locations:death-star
-new-hope:scene:069,new-hope,69,INT. DEATH STAR - GARBAGE ROOM,databank:4-a-new-hope:locations:death-star
-new-hope:scene:070,new-hope,70,INT. DEATH STAR - MAIN FORWARD BAY - SERVICE PANEL,databank:4-a-new-hope:locations:death-star
-new-hope:scene:071,new-hope,71,INT. DEATH STAR - UNUSED HALLWAY,databank:4-a-new-hope:locations:death-star
-new-hope:scene:072,new-hope,72,INT. DEATH STAR - POWER TRENCH,databank:4-a-new-hope:locations:death-star
-new-hope:scene:073,new-hope,73,INT. DEATH STAR - HALLWAY,databank:4-a-new-hope:locations:death-star
-new-hope:scene:074,new-hope,74,INT. DEATH STAR - CENTRAL CORE SHAFT,databank:4-a-new-hope:locations:death-star
-new-hope:scene:075,new-hope,75,INT. DEATH STAR - MAIN FORWARD BAY,databank:4-a-new-hope:locations:death-star
-new-hope:scene:076,new-hope,76,INT. DEATH STAR - HALLWAY LEADING TO MAIN FORWARD BAY,databank:4-a-new-hope:locations:death-star
-new-hope:scene:077,new-hope,77,INT. DEATH STAR - HALLWAY,databank:4-a-new-hope:locations:death-star
+new-hope:scene:058,new-hope,58,INT. DEATH STAR - CELL ROW,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:059,new-hope,59,INT. DEATH STAR - CONFERENCE ROOM,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:060,new-hope,60,INT. DEATH STAR - DETENTION AREA - HALLWAY,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:061,new-hope,61,INT. DEATH STAR - GARBAGE ROOM,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:062,new-hope,62,INT. DEATH STAR - MAIN FORWARD BAY - SERVICE PANEL,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:063,new-hope,63,INT. DEATH STAR - GARBAGE ROOM,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:064,new-hope,64,INT. DEATH STAR - MAIN FORWARD BAY - SERVICE PANEL,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:065,new-hope,65,INT. DEATH STAR - GARBAGE ROOM,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:066,new-hope,66,INT. DEATH STAR - MAIN FORWARD BAY - SERVICE PANEL,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:067,new-hope,67,INT. DEATH STAR - GARBAGE ROOM,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:068,new-hope,68,INT. DEATH STAR - MAIN FORWARD BAY - SERVICE PANEL,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:069,new-hope,69,INT. DEATH STAR - GARBAGE ROOM,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:070,new-hope,70,INT. DEATH STAR - MAIN FORWARD BAY - SERVICE PANEL,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:071,new-hope,71,INT. DEATH STAR - UNUSED HALLWAY,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:072,new-hope,72,INT. DEATH STAR - POWER TRENCH,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:073,new-hope,73,INT. DEATH STAR - HALLWAY,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:074,new-hope,74,INT. DEATH STAR - CENTRAL CORE SHAFT,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:075,new-hope,75,INT. DEATH STAR - MAIN FORWARD BAY,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:076,new-hope,76,INT. DEATH STAR - HALLWAY LEADING TO MAIN FORWARD BAY,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:077,new-hope,77,INT. DEATH STAR - HALLWAY,databank:3-revenge-of-the-sith:locations:death-star
 new-hope:scene:078,new-hope,78,INT. MILLENNIUM FALCON - COCKPIT,
 new-hope:scene:079,new-hope,79,INT. MILLENNIUM FALCON - CENTRAL HOLD AREA,
 new-hope:scene:080,new-hope,80,INT. MILLENNIUM FALCON - SOLO'S GUNPORT,
@@ -415,11 +415,11 @@ new-hope:scene:082,new-hope,82,INT. MILLENNIUM FALCON - MAIN PASSAGEWAY,
 new-hope:scene:083,new-hope,83,INT. MILLENNIUM FALCON - GUNPORTS,
 new-hope:scene:084,new-hope,84,INT. MILLENNIUM FALCON - GUNPORT,
 new-hope:scene:085,new-hope,85,INT. MILLENNIUM FALCON - PASSAGEWAY,
-new-hope:scene:086,new-hope,86,INT. DEATH STAR - CONTROL ROOM,databank:4-a-new-hope:locations:death-star
+new-hope:scene:086,new-hope,86,INT. DEATH STAR - CONTROL ROOM,databank:3-revenge-of-the-sith:locations:death-star
 new-hope:scene:087,new-hope,87,INT. MILLENNIUM FALCON - COCKPIT,
 new-hope:scene:088,new-hope,88,INT. MASSASSI - MAIN HANGAR DECK,
-new-hope:scene:089,new-hope,89,INT. DEATH STAR - CONTROL ROOM,databank:4-a-new-hope:locations:death-star
-new-hope:scene:090,new-hope,90,INT. DEATH STAR,databank:4-a-new-hope:locations:death-star
+new-hope:scene:089,new-hope,89,INT. DEATH STAR - CONTROL ROOM,databank:3-revenge-of-the-sith:locations:death-star
+new-hope:scene:090,new-hope,90,INT. DEATH STAR,databank:3-revenge-of-the-sith:locations:death-star
 new-hope:scene:091,new-hope,91,INT. MASSASSI OUTPOST - MAIN HANGAR DECK,
 new-hope:scene:092,new-hope,92,INT. MAIN HANGAR DECK - LUKE'S SHIP,
 new-hope:scene:093,new-hope,93,INT. MASSASSI OUTPOST - WAR ROOM,
@@ -442,7 +442,7 @@ new-hope:scene:109,new-hope,109,INT. MASSASSI OUTPOST - WAR ROOM,
 new-hope:scene:110,new-hope,110,INT. LUKE'S X-WING FIGHTER - COCKPIT,
 new-hope:scene:111,new-hope,111,INT. BIGGS' COCKPIT,
 new-hope:scene:112,new-hope,112,INT. LUKE'S X-WING FIGHTER - COCKPIT,
-new-hope:scene:113,new-hope,113,INT. DEATH STAR,databank:4-a-new-hope:locations:death-star
+new-hope:scene:113,new-hope,113,INT. DEATH STAR,databank:3-revenge-of-the-sith:locations:death-star
 new-hope:scene:114,new-hope,114,INT. READ LEADER'S X-WING FIGHTER - COCKPIT - TRAVELING,
 new-hope:scene:115,new-hope,115,INT. LUKE'S X-WING - COCKPIT - TRAVELING,
 new-hope:scene:116,new-hope,116,INT. MASSASSI OUTPOST - WAR ROO,
@@ -452,7 +452,7 @@ new-hope:scene:119,new-hope,119,INT. RED LEADER'S COCKPIT,
 new-hope:scene:120,new-hope,120,INT. BIGGS' COCKPIT - TRAVELIN,
 new-hope:scene:121,new-hope,121,INT. X-WING FIGHTER - COCKPIT - TRAVELING,
 new-hope:scene:122,new-hope,122,INT. LUKE'S X-WING FIGHTER - COCKPIT - TRAVELING,
-new-hope:scene:123,new-hope,123,INT. DEATH STAR,databank:4-a-new-hope:locations:death-star
+new-hope:scene:123,new-hope,123,INT. DEATH STAR,databank:3-revenge-of-the-sith:locations:death-star
 new-hope:scene:124,new-hope,124,INT. MASSASSI OUTPOST - WAR ROOM,
 new-hope:scene:125,new-hope,125,INT. LUKE'S X-WING FIGHTER - COCKPIT,
 new-hope:scene:126,new-hope,126,INT. LUKE'S X-WING - COCKPIT,
@@ -481,7 +481,7 @@ new-hope:scene:148,new-hope,148,INT. GOLD FIVE'S Y-WING - COCKPIT,
 new-hope:scene:149,new-hope,149,INT. LUKE'S X-WING FIGHTER - COCKPIT,
 new-hope:scene:150,new-hope,150,INT. RED LEADER'S COCKPIT,
 new-hope:scene:151,new-hope,151,INT. GOLD FIVE'S Y-WING - COCKPIT,
-new-hope:scene:152,new-hope,152,INT. DEATH STAR - CONTROL ROOM,databank:4-a-new-hope:locations:death-star
+new-hope:scene:152,new-hope,152,INT. DEATH STAR - CONTROL ROOM,databank:3-revenge-of-the-sith:locations:death-star
 new-hope:scene:153,new-hope,153,INT. READ LEADER'S COCKPIT,
 new-hope:scene:154,new-hope,154,INT. MASSASSI OUTPOST - WAR ROOM,
 new-hope:scene:155,new-hope,155,INT. RED LEADER'S COCKPIT,
@@ -490,7 +490,7 @@ new-hope:scene:157,new-hope,157,INT. RED LEADER'S COCKPIT,
 new-hope:scene:158,new-hope,158,INT. RED TEN'S COCKPIT,
 new-hope:scene:159,new-hope,159,INT. RED LEADER'S COCKPIT,
 new-hope:scene:160,new-hope,160,INT. RED TEN'S COCKPIT,
-new-hope:scene:161,new-hope,161,EXT. SPACE - DEATH STAR TRENCH,databank:4-a-new-hope:locations:death-star
+new-hope:scene:161,new-hope,161,EXT. SPACE - DEATH STAR TRENCH,databank:3-revenge-of-the-sith:locations:death-star
 new-hope:scene:162,new-hope,162,INT. LUKE'S X-WING FIGHTER - COCKPIT,
 new-hope:scene:163,new-hope,163,INT. RED TEN'S COCKPIT,
 new-hope:scene:164,new-hope,164,INT. RED LEADER'S COCKPIT,
@@ -504,7 +504,7 @@ new-hope:scene:171,new-hope,171,INT. RED LEADER'S COCKPIT,
 new-hope:scene:172,new-hope,172,INT. LUKE'S X-WING FIGHTER - COCKPIT,
 new-hope:scene:173,new-hope,173,INT. RED LEADER'S COCKPIT,
 new-hope:scene:174,new-hope,174,INT. LUKE'S X-WING FIGHTER - COCKPIT,
-new-hope:scene:175,new-hope,175,INT. DEATH STAR,databank:4-a-new-hope:locations:death-star
+new-hope:scene:175,new-hope,175,INT. DEATH STAR,databank:3-revenge-of-the-sith:locations:death-star
 new-hope:scene:176,new-hope,176,INT. MASSASSI OUTPOST - WAR ROOM,
 new-hope:scene:177,new-hope,177,INT. WEDGE'S COCKPIT,
 new-hope:scene:178,new-hope,178,INT. BIGGS' COCKPIT,
@@ -522,19 +522,19 @@ new-hope:scene:189,new-hope,189,INT. DARTH VADER'S COCKPIT,
 new-hope:scene:190,new-hope,190,INT. BIGGS' COCKPIT,
 new-hope:scene:191,new-hope,191,INT. LUKE'S X-WING FIGHTER,
 new-hope:scene:192,new-hope,192,INT. BIGGS' COCKPIT,
-new-hope:scene:193,new-hope,193,INT. DEATH STAR - CONTROL ROOM,databank:4-a-new-hope:locations:death-star
+new-hope:scene:193,new-hope,193,INT. DEATH STAR - CONTROL ROOM,databank:3-revenge-of-the-sith:locations:death-star
 new-hope:scene:194,new-hope,194,INT. DARTH VADER'S COCKPIT,
 new-hope:scene:195,new-hope,195,INT. MASSASSI OUTPOST - WAR ROOM,
 new-hope:scene:196,new-hope,196,INT. LUKE'S X-WING - COCKPIT,
 new-hope:scene:197,new-hope,197,INT. DARTH VADER'S COCKPIT,
 new-hope:scene:198,new-hope,198,INT. LUKE'S X-WING - COCKPIT,
 new-hope:scene:199,new-hope,199,INT. MASSASSI OUTPOST - WAR ROOM,
-new-hope:scene:200,new-hope,200,INT. DEATH STAR - CONTROL ROOM,databank:4-a-new-hope:locations:death-star
+new-hope:scene:200,new-hope,200,INT. DEATH STAR - CONTROL ROOM,databank:3-revenge-of-the-sith:locations:death-star
 new-hope:scene:201,new-hope,201,INT. DARTH VADER'S COCKPIT,
 new-hope:scene:202,new-hope,202,INT. WINGMAN'S COCKPIT,
 new-hope:scene:203,new-hope,203,INT. MILLENNIUM FALCON - COCKPIT,
 new-hope:scene:204,new-hope,204,INT. MASSASSI OUTPOST - WAR ROOM,
-new-hope:scene:205,new-hope,205,INT. DEATH STAR,databank:4-a-new-hope:locations:death-star
+new-hope:scene:205,new-hope,205,INT. DEATH STAR,databank:3-revenge-of-the-sith:locations:death-star
 new-hope:scene:206,new-hope,206,INT. MILLENNIUM FALCON - COCKPIT,
 new-hope:scene:207,new-hope,207,INT. LUKE'S X-WING FIGHTER - COCKPIT,
 new-hope:scene:208,new-hope,208,INT. MASSASSI OUTPOST - MAIN HANGAR,
@@ -650,7 +650,7 @@ empire-strikes-back:scene:109,empire-strikes-back,109,INT. STAR CRUISER - MEDICA
 return-jedi:scene:001,return-jedi,1,2 INT IMPERIAL SHUTTLE - COCKPIT,
 return-jedi:scene:002,return-jedi,2,3 INT DEATH STAR - CONTROL ROOM,databank:3-revenge-of-the-sith:locations:death-star
 return-jedi:scene:003,return-jedi,3,4 INT DEATH STAR - MAIN DOCKING BAY,databank:3-revenge-of-the-sith:locations:death-star
-return-jedi:scene:004,return-jedi,4,5 EXT ROAD TO JABBA'S PALACE - TATOOINE,databank:6-return-of-the-jedi:locations:tatooine
+return-jedi:scene:004,return-jedi,4,5 EXT ROAD TO JABBA'S PALACE - TATOOINE,databank:1-the-phantom-menace:locations:tatooine
 return-jedi:scene:005,return-jedi,5,6 EXT JABBA'S PALACE - GATE,
 return-jedi:scene:006,return-jedi,6,8 INT JABBA'S THRONE ROOM,
 return-jedi:scene:007,return-jedi,7,11 INT JABBA'S THRONE ROOM,
@@ -661,7 +661,7 @@ return-jedi:scene:011,return-jedi,11,17 INT JABBA'S THRONE ROOM,
 return-jedi:scene:012,return-jedi,12,18 INT RANCOR PIT,
 return-jedi:scene:013,return-jedi,13,19 HOLDING TUNNEL - RANCOR PIT,
 return-jedi:scene:014,return-jedi,14,22 INT THRONE ROOM,
-return-jedi:scene:015,return-jedi,15,23 EXT TATOOINE SEA - SKIFF,databank:6-return-of-the-jedi:locations:tatooine
+return-jedi:scene:015,return-jedi,15,23 EXT TATOOINE SEA - SKIFF,databank:1-the-phantom-menace:locations:tatooine
 return-jedi:scene:016,return-jedi,16,24 INT BARGE OBSERVATION DECK,
 return-jedi:scene:017,return-jedi,17,26 EXT SAIL BARGE OBSERVATION DECK,
 return-jedi:scene:018,return-jedi,18,27 EXT SKIFF,

@@ -2,22 +2,26 @@
 
 ## CSV Layout
 
-- `mono-database/entities.csv` merges every record into one table. It has
-  common columns (`id`, `source`, `entity_type`, `category`, `collection`,
-  `title`, `description`, `history`, image fields, and source path) followed by
-  the union of source-specific SWAPI fields. Category and collection make the
-  records filterable without separate folders. List-valued SWAPI attributes
-  are JSON-encoded in their cell.
-- `mono-database/metadata.csv` stores repeatable databank metadata as
+- `database/entities.csv` merges every record into one table. It has
+  common columns (`id`, `entity_type`, `category`, `collection`,
+  `title`, `description`, `history`, and image fields) followed by the union of
+  SWAPI fields. Category and collection make the records filterable without
+  separate folders. List-valued SWAPI attributes are JSON-encoded in their cell.
+- `database/entity_aliases.csv` maps former entity IDs to one canonical entity
+  and archives the merged record as JSON. Aliases are not separate entities;
+  the wiki resolves old entity URLs to their canonical page.
+- `database/IDENTITY_AUDIT.md` records the identity merge checks, results, and
+  cases kept separate because they represent different entities.
+- `database/metadata.csv` stores repeatable databank metadata as
   `(entity_id, field, value, related_entity_id)`.
-- `mono-database/relationships.csv` stores foreign keys such as film characters
-  and a person's homeworld as `(source_id, relationship, target_id)`.
+- `database/relationships.csv` stores internal entity links such as film
+  membership, pilots, homeworlds, and exact cross-source identity matches as
+  `(source_id, relationship, target_id)`.
 - `database/timeline_events.csv` stores ordered lore events with stable event
-  IDs and timeline display fields.
+  IDs, order, and display fields used by the starter timeline.
 - `database/timeline_entities.csv` links timeline events to database entities
-  as `(event_id, entity_id, relationship)`. Film links include entries curated
-  in that film's Databank collection and records whose `appearances` metadata
-  names that film.
+  as `(event_id, entity_id, relationship)`. Links include Databank collection
+  and appearance metadata, plus SWAPI film membership.
 - `database/timeline_scenes.csv` stores screenplay scene headings and their
   order within each film event. `location_entity_id` is populated when a scene
   heading names a known location.
@@ -26,19 +30,22 @@
 - `database/quotes.csv` stores dialogue rows with their screenplay order,
   scene, speaker label, and matched `speaker_entity_id` when the label resolves
   to a character record. Unmatched speaker labels remain available as text.
-- `database/build_script_data.py` rebuilds the scene, scene link, and quote CSVs
-  from the six screenplay CSVs in `data-scripts-star-wars/5. Data CSV/`.
-- Every entity has `image_path` and `image_status` in `entities.csv`. Existing
-  databank card images use relative paths and `available` status; records
-  without images have a blank path and `placeholder` status.
+- Every entity has `image_path` and `image_status` in `entities.csv`. Image
+  paths are relative to `database/`; copied card assets live in `database/images`
+  and use entity-ID-based unique filenames. Entries without source art use
+  `placeholder` status and point to `images/z-placeholder-img.png`.
 
-IDs are source-namespaced: databank IDs use
+All imported values and relationships live in `database/`; no entity depends
+on a source folder. IDs retain their original namespaces as stable identifiers:
+databank IDs use
 `databank:<databank-folder>:<category>:<slug>` and SWAPI IDs use
 `swapi:<resource>:<source-pk>`. Treat IDs as opaque strings. Foreign keys in
-`relationships.csv` and `metadata.csv` reference these IDs. Timeline event IDs
-match the starter timeline IDs (for example, `phantom-menace`). `sequence` is
-chronological order; `year` uses BBY/ABY with 0 as the Battle of Yavin. Links in
-`timeline_entities.csv` reference `entities.csv` IDs.
+`relationships.csv`, `metadata.csv`, and `timeline_entities.csv` reference
+entity IDs from `entities.csv`. Alias IDs in `entity_aliases.csv` resolve to
+those canonical entity IDs. Timeline event IDs match the starter timeline
+IDs (for example, `phantom-menace`); `sequence` is chronological order and
+`year` uses BBY/ABY with 0 as the Battle of Yavin. `previous_event_id` links
+events within `timeline_events.csv`.
 
 ## Sources
 

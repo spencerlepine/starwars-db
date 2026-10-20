@@ -11,6 +11,13 @@ const short = (value, max = 145) => {
   return text.length > max ? `${text.slice(0, max).trimEnd()}…` : text;
 };
 const pathFor = (kind, id) => `/${kind}/${encodeURIComponent(id)}`;
+const imageURL = (entity) => {
+  const path = String(entity.image_path || "");
+  if (!path.startsWith("images/")) return "";
+  const filename = path.slice("images/".length);
+  if (!filename || filename.includes("/")) return "";
+  return `/database-images/${encodeURIComponent(filename)}`;
+};
 const entityLink = (entity, text = entity.title || entity.name || entity.id) => `<a class="row-title" data-route href="${pathFor("entity", entity.id)}">${esc(text)}</a>`;
 const eventLink = (event, text = event.title) => `<a class="row-title" data-route href="${pathFor("timeline", event.id)}">${esc(text)}</a>`;
 const fmtNumber = (value) => Number(value || 0).toLocaleString();
@@ -102,7 +109,7 @@ async function renderEntities(search = "", category = "", offset = 0) {
 
 function renderEntityTable(rows) {
   if (!rows.length) return '<div class="empty-state">No entries match this search.</div>';
-  return `<div class="table-wrap"><table><thead><tr><th>Name</th><th>Category</th><th>Source</th><th>Description</th></tr></thead><tbody>${rows.map((row) => `<tr><td>${entityLink(row)}</td><td><span class="pill">${esc(label(row.category))}</span></td><td>${esc(row.source || row.entity_type || "—")}</td><td>${esc(short(row.description, 115))}</td></tr>`).join("")}</tbody></table></div>`;
+  return `<div class="table-wrap"><table><thead><tr><th>Name</th><th>Category</th><th>Type</th><th>Description</th></tr></thead><tbody>${rows.map((row) => `<tr><td>${entityLink(row)}</td><td><span class="pill">${esc(label(row.category))}</span></td><td>${esc(label(row.entity_type || "—"))}</td><td>${esc(short(row.description, 115))}</td></tr>`).join("")}</tbody></table></div>`;
 }
 
 async function renderEntity(id) {
@@ -115,8 +122,9 @@ async function renderEntity(id) {
   const related = data.related.length ? data.related.map((item) => `<a class="aside-link" data-route href="${pathFor("entity", item.entity.id)}"><strong>${esc(item.entity.title || item.entity.name || item.entity.id)}</strong><small>${esc(label(item.relationship))} · ${esc(label(item.entity.category))}</small></a>`).join("") : '<div class="muted-cell">No linked entries.</div>';
   const appearances = data.events.length ? data.events.map((item) => `<a class="aside-link" data-route href="${pathFor("timeline", item.event.id)}"><strong>${esc(item.event.title)}</strong><small>${esc(yearLabel(item.event.year))} · ${esc(label(item.relationship))}</small></a>`).join("") : '<div class="muted-cell">No linked films or events.</div>';
   const metadata = data.metadata.length ? data.metadata.map((item) => `<div class="metadata-row"><strong>${esc(label(item.field))}</strong><span>${item.related_entity_id ? entityLink({ id: item.related_entity_id, title: item.value }, item.value || item.related_entity_id) : esc(item.value)}</span></div>`).join("") : '<div class="muted-cell">No metadata.</div>';
-  content.innerHTML = `<div class="entity-layout fade-in"><article class="entity-main"><div class="entity-heading"><div class="eyebrow">${esc(label(entity.entity_type || entity.category))}</div><h1>${esc(entity.title || entity.name || entity.id)}</h1><div class="entity-tags"><span class="pill">${esc(label(entity.category))}</span>${entity.collection ? `<span class="pill accent">${esc(label(entity.collection))}</span>` : ""}<span class="pill">${esc(entity.source || "Database record")}</span></div></div>
-    ${entity.description ? `<p class="entity-description">${esc(entity.description)}</p>` : ""}${entity.history ? `<blockquote class="entity-history">${esc(entity.history)}</blockquote>` : ""}
+  const image = imageURL(entity);
+  content.innerHTML = `<div class="entity-layout fade-in"><article class="entity-main"><div class="entity-heading"><div class="eyebrow">${esc(label(entity.entity_type || entity.category))}</div><h1>${esc(entity.title || entity.name || entity.id)}</h1><div class="entity-tags"><span class="pill">${esc(label(entity.category))}</span>${entity.collection ? `<span class="pill accent">${esc(label(entity.collection))}</span>` : ""}</div></div>
+    ${image ? `<img class="entity-image" src="${esc(image)}" alt="${esc(entity.title || entity.name || "Database entry")}" loading="lazy">` : ""}${entity.description ? `<p class="entity-description">${esc(entity.description)}</p>` : ""}${entity.history ? `<blockquote class="entity-history">${esc(entity.history)}</blockquote>` : ""}
     <section class="detail-section"><h2>Record details</h2><dl class="property-list">${properties || '<div class="property"><dd>No populated fields.</dd></div>'}</dl></section>
     <section class="detail-section"><h2>Database ID</h2><div class="event-detail"><code>${esc(entity.id)}</code></div></section></article>
     <aside class="entity-aside"><section class="aside-panel"><h3>Timeline appearances</h3>${appearances}</section><section class="aside-panel"><h3>Connected entries</h3>${related}</section><section class="aside-panel"><h3>Metadata</h3><div class="metadata-list">${metadata}</div></section></aside></div>`;
