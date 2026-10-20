@@ -12,6 +12,12 @@
   `(entity_id, field, value, related_entity_id)`.
 - `mono-database/relationships.csv` stores foreign keys such as film characters
   and a person's homeworld as `(source_id, relationship, target_id)`.
+- `database/timeline_events.csv` stores ordered lore events with stable event
+  IDs and timeline display fields.
+- `database/timeline_entities.csv` links timeline events to database entities
+  as `(event_id, entity_id, relationship)`. Film links include entries curated
+  in that film's Databank collection and records whose `appearances` metadata
+  names that film.
 - Every entity has `image_path` and `image_status` in `entities.csv`. Existing
   databank card images use relative paths and `available` status; records
   without images have a blank path and `placeholder` status.
@@ -19,7 +25,10 @@
 IDs are source-namespaced: databank IDs use
 `databank:<databank-folder>:<category>:<slug>` and SWAPI IDs use
 `swapi:<resource>:<source-pk>`. Treat IDs as opaque strings. Foreign keys in
-`relationships.csv` and `metadata.csv` reference these IDs.
+`relationships.csv` and `metadata.csv` reference these IDs. Timeline event IDs
+match the starter timeline IDs (for example, `phantom-menace`). `sequence` is
+chronological order; `year` uses BBY/ABY with 0 as the Battle of Yavin. Links in
+`timeline_entities.csv` reference `entities.csv` IDs.
 
 ## Sources
 
@@ -40,6 +49,12 @@ https://github.com/api-evangelist/swapi
 
 Source #4:
 https://github.com/Juriy/swapi
+
+Source #5:
+https://github.com/itwasmattgregg/Star-Wars-Timeline (dumb timeline)
+
+Source #6:
+https://github.com/jcwieme/data-scripts-star-wars (movie dialogue for quotes!)
 
 ## Notes
 
