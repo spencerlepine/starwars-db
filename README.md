@@ -18,6 +18,16 @@
   as `(event_id, entity_id, relationship)`. Film links include entries curated
   in that film's Databank collection and records whose `appearances` metadata
   names that film.
+- `database/timeline_scenes.csv` stores screenplay scene headings and their
+  order within each film event. `location_entity_id` is populated when a scene
+  heading names a known location.
+- `database/timeline_scene_entities.csv` links scenes to matched location and
+  vehicle entities.
+- `database/quotes.csv` stores dialogue rows with their screenplay order,
+  scene, speaker label, and matched `speaker_entity_id` when the label resolves
+  to a character record. Unmatched speaker labels remain available as text.
+- `database/build_script_data.py` rebuilds the scene, scene link, and quote CSVs
+  from the six screenplay CSVs in `data-scripts-star-wars/5. Data CSV/`.
 - Every entity has `image_path` and `image_status` in `entities.csv`. Existing
   databank card images use relative paths and `available` status; records
   without images have a blank path and `placeholder` status.
@@ -61,3 +71,10 @@ https://github.com/jcwieme/data-scripts-star-wars (movie dialogue for quotes!)
 Timeline/Lore
 Planets
 Images!!
+
+The Phantom Menace
+Attack of the Clones
+Revenge of The Sith
+A New Hope
+The Empire Strikes Back
+Return of the Jedi
