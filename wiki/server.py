@@ -179,7 +179,18 @@ class WikiHandler(BaseHTTPRequestHandler):
             for link in links
             if link.get("entity_id") == entity_id and link.get("event_id") in event_by_id
         ]
-        json_response(self, {"entity": entity, "metadata": metadata_rows, "related": related, "events": appearances})
+        try:
+            _, image_rows = read_table("entity_images.csv")
+        except FileNotFoundError:
+            image_rows = []
+        images = sorted(
+            (row for row in image_rows if row.get("entity_id") == entity_id),
+            key=lambda row: int(row.get("position") or 0),
+        )
+        # Keep old databases readable until they have an entity_images.csv table.
+        if not images and entity.get("image_path"):
+            images = [{"entity_id": entity_id, "position": "1", "path": entity["image_path"], "status": entity.get("image_status", "")}]
+        json_response(self, {"entity": entity, "images": images, "metadata": metadata_rows, "related": related, "events": appearances})
 
     def timeline_detail(self, encoded_id: str) -> None:
         event_id = unquote(encoded_id)

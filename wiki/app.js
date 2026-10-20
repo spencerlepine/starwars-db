@@ -11,8 +11,8 @@ const short = (value, max = 145) => {
   return text.length > max ? `${text.slice(0, max).trimEnd()}…` : text;
 };
 const pathFor = (kind, id) => `/${kind}/${encodeURIComponent(id)}`;
-const imageURL = (entity) => {
-  const path = String(entity.image_path || "");
+const imageURL = (path) => {
+  path = String(path || "");
   if (!path.startsWith("images/")) return "";
   const filename = path.slice("images/".length);
   if (!filename || filename.includes("/")) return "";
@@ -122,9 +122,10 @@ async function renderEntity(id) {
   const related = data.related.length ? data.related.map((item) => `<a class="aside-link" data-route href="${pathFor("entity", item.entity.id)}"><strong>${esc(item.entity.title || item.entity.name || item.entity.id)}</strong><small>${esc(label(item.relationship))} · ${esc(label(item.entity.category))}</small></a>`).join("") : '<div class="muted-cell">No linked entries.</div>';
   const appearances = data.events.length ? data.events.map((item) => `<a class="aside-link" data-route href="${pathFor("timeline", item.event.id)}"><strong>${esc(item.event.title)}</strong><small>${esc(yearLabel(item.event.year))} · ${esc(label(item.relationship))}</small></a>`).join("") : '<div class="muted-cell">No linked films or events.</div>';
   const metadata = data.metadata.length ? data.metadata.map((item) => `<div class="metadata-row"><strong>${esc(label(item.field))}</strong><span>${item.related_entity_id ? entityLink({ id: item.related_entity_id, title: item.value }, item.value || item.related_entity_id) : esc(item.value)}</span></div>`).join("") : '<div class="muted-cell">No metadata.</div>';
-  const image = imageURL(entity);
+  const images = data.images || (entity.image_path ? [{ path: entity.image_path }] : []);
+  const imageGallery = images.map((item) => imageURL(item.path)).filter(Boolean).map((url, index) => `<img class="entity-image" src="${esc(url)}" alt="${esc(entity.title || entity.name || "Database entry")}${images.length > 1 ? `, image ${index + 1}` : ""}" loading="lazy">`).join("");
   content.innerHTML = `<div class="entity-layout fade-in"><article class="entity-main"><div class="entity-heading"><div class="eyebrow">${esc(label(entity.entity_type || entity.category))}</div><h1>${esc(entity.title || entity.name || entity.id)}</h1><div class="entity-tags"><span class="pill">${esc(label(entity.category))}</span>${entity.collection ? `<span class="pill accent">${esc(label(entity.collection))}</span>` : ""}</div></div>
-    ${image ? `<img class="entity-image" src="${esc(image)}" alt="${esc(entity.title || entity.name || "Database entry")}" loading="lazy">` : ""}${entity.description ? `<p class="entity-description">${esc(entity.description)}</p>` : ""}${entity.history ? `<blockquote class="entity-history">${esc(entity.history)}</blockquote>` : ""}
+    ${imageGallery ? `<div class="entity-images">${imageGallery}</div>` : ""}${entity.description ? `<p class="entity-description">${esc(entity.description)}</p>` : ""}${entity.history ? `<blockquote class="entity-history">${esc(entity.history)}</blockquote>` : ""}
     <section class="detail-section"><h2>Record details</h2><dl class="property-list">${properties || '<div class="property"><dd>No populated fields.</dd></div>'}</dl></section>
     <section class="detail-section"><h2>Database ID</h2><div class="event-detail"><code>${esc(entity.id)}</code></div></section></article>
     <aside class="entity-aside"><section class="aside-panel"><h3>Timeline appearances</h3>${appearances}</section><section class="aside-panel"><h3>Connected entries</h3>${related}</section><section class="aside-panel"><h3>Metadata</h3><div class="metadata-list">${metadata}</div></section></aside></div>`;

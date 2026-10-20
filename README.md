@@ -10,6 +10,11 @@
 - `database/entity_aliases.csv` maps former entity IDs to one canonical entity
   and archives the merged record as JSON. Aliases are not separate entities;
   the wiki resolves old entity URLs to their canonical page.
+- `database/entity_images.csv` stores ordered images as `(entity_id, position,
+  path, status)`. Each row references one entity; add rows with increasing
+  positions to attach additional images. Existing primary image fields remain
+  in `entities.csv` for compatibility; the image table is authoritative for
+  entity pages.
 - `database/IDENTITY_AUDIT.md` records the identity merge checks, results, and
   cases kept separate because they represent different entities.
 - `database/metadata.csv` stores repeatable databank metadata as
@@ -30,10 +35,11 @@
 - `database/quotes.csv` stores dialogue rows with their screenplay order,
   scene, speaker label, and matched `speaker_entity_id` when the label resolves
   to a character record. Unmatched speaker labels remain available as text.
-- Every entity has `image_path` and `image_status` in `entities.csv`. Image
-  paths are relative to `database/`; copied card assets live in `database/images`
-  and use entity-ID-based unique filenames. Entries without source art use
-  `placeholder` status and point to `images/z-placeholder-img.png`.
+- `entities.csv` retains the original `image_path` and `image_status` fields.
+  `entity_images.csv` contains the corresponding first image for every entity.
+  Image paths are relative to `database/`; copied card assets live in
+  `database/images` and use entity-ID-based unique filenames. Entries without
+  source art use `placeholder` status and point to `images/z-placeholder-img.png`.
 
 All imported values and relationships live in `database/`; no entity depends
 on a source folder. IDs retain their original namespaces as stable identifiers:
