@@ -120,6 +120,11 @@ tbody tr:hover { background: #f7f7f1; }
 .property:last-child, .property:nth-last-child(2):nth-child(odd) { border-bottom: 0; }
 .property dt { color: var(--muted); font-size: 10px; margin-bottom: 3px; text-transform: uppercase; }
 .property dd { margin: 0; overflow-wrap: anywhere; white-space: pre-wrap; }
+.wiki-content-list { display: grid; gap: 8px; }
+.wiki-content { background: var(--surface); border: 1px solid var(--line); min-width: 0; }
+.wiki-content summary { cursor: pointer; font-weight: 600; overflow-wrap: anywhere; padding: 10px 12px; }
+.wiki-content summary span { color: var(--muted); display: block; font-size: 12px; font-weight: 400; margin-top: 4px; }
+.wiki-content-text { border-top: 1px solid var(--line); max-height: 55vh; overflow: auto; overflow-wrap: anywhere; padding: 12px; white-space: pre-wrap; }
 .entity-aside { display: flex; flex-direction: column; gap: 14px; }
 .aside-panel { background: var(--surface); border: 1px solid var(--line); padding: 15px; }
 .aside-panel h3 { border-bottom: 1px solid var(--line); font: 600 17px var(--display); margin: 0 0 5px; padding-bottom: 9px; }

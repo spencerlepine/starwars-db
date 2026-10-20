@@ -4,6 +4,7 @@ import argparse
 import csv
 import json
 import mimetypes
+import sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, unquote, urlparse
@@ -11,6 +12,9 @@ from urllib.parse import parse_qs, unquote, urlparse
 
 WIKI_DIR = Path(__file__).resolve().parent
 DATABASE_DIR = WIKI_DIR.parent / "database"
+
+# Wiki text blobs can be much larger than csv's 128 KiB default limit.
+csv.field_size_limit(sys.maxsize)
 
 
 def table_path(name: str) -> Path | None:
