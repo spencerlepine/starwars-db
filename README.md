@@ -35,6 +35,22 @@
 - `database/quotes.csv` stores dialogue rows with their screenplay order,
   scene, speaker label, and matched `speaker_entity_id` when the label resolves
   to a character record. Unmatched speaker labels remain available as text.
+- `database/soundtrack_albums.csv` stores one row per film soundtrack album
+  (`soundtrack:<event_id>`), linked to `timeline_events.csv` by `event_id`, with
+  the official YouTube album playlist when known.
+- `database/soundtrack_tracks.csv` stores every official album track
+  (`soundtrack:<event_id>:<NN>`) with its album duration, a `category`
+  (`main_theme`, `character_theme`, `love_theme`, `action`, `source_music`,
+  `finale`, `score`), an `essential` flag for the instantly recognisable cues,
+  and one individual YouTube video (`youtube_video_id`, `youtube_url`, the
+  video's real title and channel as verified through YouTube oEmbed).
+  `source_type` is `official` for label/auto-generated "- Topic" uploads of
+  the original recordings and `fan_upload` otherwise. Curation tooling lives in
+  the `sw-music-sfx` repository.
+- `database/soundtrack_track_entities.csv` links tracks to entities as
+  `(track_id, entity_id, relationship)`; relationships are `leitmotif`
+  (the track is that entity's theme), `depicts`, `source_music`, and
+  `performed_by`.
 - `entities.csv` retains the original `image_path` and `image_status` fields.
   `entity_images.csv` contains the corresponding first image for every entity.
   Image paths are relative to `database/`; copied card assets live in

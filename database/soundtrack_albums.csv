@@ -1,0 +1,4 @@
+album_id,event_id,title,composer,performer,original_label,original_release_year,reissue,track_count,youtube_playlist_url
+soundtrack:phantom-menace,phantom-menace,Star Wars: The Phantom Menace (Original Motion Picture Soundtrack),John Williams,London Symphony Orchestra,Sony Classical,1999,Walt Disney Records 2018 remaster,17,
+soundtrack:attack-clones,attack-clones,Star Wars: Attack of the Clones (Original Motion Picture Soundtrack),John Williams,London Symphony Orchestra,Sony Classical,2002,Walt Disney Records 2018 remaster,13,
+soundtrack:revenge-sith,revenge-sith,Star Wars: Revenge of the Sith (Original Motion Picture Soundtrack),John Williams,London Symphony Orchestra,Sony Classical,2005,Walt Disney Records 2018 remaster,15,
