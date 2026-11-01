@@ -45,8 +45,7 @@
   and one individual YouTube video (`youtube_video_id`, `youtube_url`, the
   video's real title and channel as verified through YouTube oEmbed).
   `source_type` is `official` for label/auto-generated "- Topic" uploads of
-  the original recordings and `fan_upload` otherwise. Curation tooling and the MP3
-  downloader live in `temp-music-downloader/` (see its README).
+  the original recordings and `fan_upload` otherwise.
 - `database/soundtrack_track_entities.csv` links tracks to entities as
   `(track_id, entity_id, relationship)`; relationships are `leitmotif`
   (the track is that entity's theme), `depicts`, `source_music`, and
@@ -55,7 +54,7 @@
   (`sfx:<source>:<name>`) with a `category`, the Star Wars sound each one
   stands in for (`star_wars_analog`), an `essential` flag, and a `path`
   relative to `database/` (files live in `database/sounds/`). All files are
-  CC0: Kenney sci-fi/digital packs plus sounds synthesized by `temp-music-downloader/tools/synth_sfx.py`.
+  CC0: Kenney sci-fi/digital packs plus synthesized sounds (Kenney licenses in `database/sounds/LICENSE-kenney-*.txt`).
   Rows with ids `sfx:original:*` (files in `database/sounds/original/`) are
   the original film sounds and voice clips collected from public GitHub
   soundboards for personal reference only (`license` says reference-only;
