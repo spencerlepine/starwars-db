@@ -75,6 +75,6 @@ challenge solving failed). WARP proxy mode on 127.0.0.1:40000.
 - Bot-checked: `phantom-menace:04`, `:05`, `:06`.
 - Never attempted (run stopped first): phantom-menace 07, 08, 10, 11, 12,
   13, 16; attack-clones 04-11; revenge-sith 02, 06, 07, 08, 12, 13.
-- 27 rows left in total (2 essential + return-jedi:05). Re-running
+- 27 rows left in total (2 essential: attack-clones:13, return-jedi:05). Re-running
   `download_music.py` from a home connection resumes and only fetches
   those.
