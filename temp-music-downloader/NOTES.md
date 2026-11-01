@@ -78,3 +78,14 @@ challenge solving failed). WARP proxy mode on 127.0.0.1:40000.
 - 27 rows left in total (2 essential: attack-clones:13, return-jedi:05). Re-running
   `download_music.py` from a home connection resumes and only fetches
   those.
+
+### 2026-11-01: second EC2 run (cloned instance, new IP)
+
+- The new AWS IP was bot-checked straight away without a proxy. The cloned box
+  had lost its WARP registration, so it was registered again in proxy mode.
+  After that the smoke test passed (`324|Main Title`).
+- Resume run: 23 downloaded, 0 bot checks. **85 of 89 tracks ok**, 357 MB.
+- Still failing with "Video unavailable" (each one needs a new video):
+  `empire-strikes-back:04` (Mu8_4cn3c08), `attack-clones:05` (hv6J2abOpOI),
+  `attack-clones:13` (vkBnGJX2VUQ, essential), `revenge-sith:08` (jqPPFwdEF8c).
+- Duration warning: `revenge-sith:13` (fan upload) is 120s, but the album track is 169s.
