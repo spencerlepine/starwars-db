@@ -3,7 +3,7 @@
 ## Goal
 Download the 89 soundtrack tracks listed in `database/soundtrack_tracks.csv`
 (each row has a `youtube_url`) as 128 kbps MP3s into `database/music/`, fill in
-the audio columns, and push everything to `main` with the MP3s in Git LFS.
+the audio columns, and push everything to `main` as plain git files (no Git LFS).
 YouTube blocks AWS IPs, so the downloads go through Cloudflare WARP (free),
 which spencer approved for this job.
 
@@ -25,15 +25,13 @@ Cloudflare publishes an apt package for WARP.
 
 ## Setup
 ```bash
-sudo apt update && sudo apt install -y git git-lfs python3-pip python3-venv ffmpeg curl gpg lsb-release
+sudo apt update && sudo apt install -y git python3-pip python3-venv ffmpeg curl gpg lsb-release
 python3 -m venv ~/venv && . ~/venv/bin/activate
 pip install -U yt-dlp deno
-git lfs install
 git clone https://github.com/spencerlepine/starwars-db
 cd starwars-db
 git config user.name spencerlepine
 git config user.email 60903378+spencerlepine@users.noreply.github.com
-cat .gitattributes          # must contain: database/music/*.mp3 filter=lfs ...
 ```
 Read `temp-music-downloader/README.md` for the full background.
 
@@ -79,11 +77,12 @@ grep -c ',ok,' database/soundtrack_tracks.csv     # expect 89
 grep error: database/soundtrack_tracks.csv        # list anything that failed
 du -sh database/music                             # ~400 MB
 git add database/music database/soundtrack_tracks.csv
-git lfs status                                    # MP3s must show as LFS objects, not plain git
-git commit -m "Add soundtrack MP3s (Git LFS)"
+git commit -m "Add soundtrack MP3s"
 git push origin main
 ```
-GitHub pushes go out directly, not through WARP. Note any "WARNING: ... check
+Commit and push one film at a time (e.g. `git add database/music/new-hope__*`)
+so each push stays small. Every MP3 is far under GitHub's 100 MB per-file
+limit. Do not set up Git LFS. GitHub pushes go out directly, not through WARP. Note any "WARNING: ... check
 this video" lines from the script. A duration mismatch means the video may
 not be the single album track.
 

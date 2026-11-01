@@ -45,16 +45,14 @@ Then check and commit:
 grep -c ',ok,' database/soundtrack_tracks.csv     # expect 89
 grep error: database/soundtrack_tracks.csv        # anything to fix by hand
 du -sh database/music                             # ~400 MB expected
-git lfs install                                   # once per machine (brew/apt install git-lfs)
-git lfs status                                    # MP3s should be listed as LFS
 git add database/music database/soundtrack_tracks.csv
 git commit -m "Add soundtrack MP3s" && git push
 ```
 
 Size: 128 kbps is about 1 MB per minute, so roughly 400 MB for all 89
-tracks. Decided 2026-11-01: the MP3s are stored with **Git LFS**
-(`.gitattributes` already tracks `database/music/*.mp3`), so install
-git-lfs before committing them.
+tracks. Decided 2026-11-01: the MP3s are committed as plain git files (no
+Git LFS). Each file is far under GitHub's 100 MB limit and the repo has
+room to spare.
 
 ## Why it was not done in the cloud
 
