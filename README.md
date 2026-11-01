@@ -51,6 +51,13 @@
   `(track_id, entity_id, relationship)`; relationships are `leitmotif`
   (the track is that entity's theme), `depicts`, `source_music`, and
   `performed_by`.
+- `database/sound_effects.csv` stores reference sound effects for the game
+  (`sfx:<source>:<name>`) with a `category`, the Star Wars sound each one
+  stands in for (`star_wars_analog`), an `essential` flag, and a `path`
+  relative to `database/` (files live in `database/sounds/`). All files are
+  CC0: Kenney sci-fi/digital packs plus sounds synthesized in `sw-music-sfx`.
+- `database/sound_effect_entities.csv` links sounds to entities as
+  `(sfx_id, entity_id, relationship)`.
 - `entities.csv` retains the original `image_path` and `image_status` fields.
   `entity_images.csv` contains the corresponding first image for every entity.
   Image paths are relative to `database/`; copied card assets live in
