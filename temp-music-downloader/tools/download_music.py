@@ -6,6 +6,7 @@ usage:
   python3 tools/download_music.py [path/to/starwars-db (default: the repo this folder lives in)]
       [--bitrate 128] [--only essential] [--force]
       [--cookies-from-browser firefox|chrome|safari|...] [--max-blocked 3]
+      [--proxy socks5://127.0.0.1:40000]
 
 Run it from a home connection. YouTube answers datacenter/cloud IPs with
 "Sign in to confirm you're not a bot", so it will not work from a server.
@@ -34,7 +35,7 @@ AUDIO_COLS = ["audio_path", "audio_duration_seconds", "audio_bitrate_kbps", "aud
 
 def parse_args(argv):
     opts = {"db": ROOT.parent, "bitrate": "128", "only": None, "force": False,
-            "cookies": None, "max_blocked": 3}
+            "cookies": None, "max_blocked": 3, "proxy": None}
     it = iter(argv)
     for a in it:
         if a == "--bitrate":
@@ -43,6 +44,8 @@ def parse_args(argv):
             opts["only"] = next(it)
         elif a == "--cookies-from-browser":
             opts["cookies"] = next(it)
+        elif a == "--proxy":
+            opts["proxy"] = next(it)
         elif a == "--max-blocked":
             opts["max_blocked"] = int(next(it))
         elif a == "--force":
@@ -103,6 +106,8 @@ def main():
         cmd = ["yt-dlp", "--no-playlist", "-f", "bestaudio/best", "-x",
                "--audio-format", "mp3", "--audio-quality", f"{o['bitrate']}K",
                "--no-progress", "--retries", "3", "-o", str(out_dir / (dest.stem + ".%(ext)s")), r["youtube_url"]]
+        if o["proxy"]:
+            cmd[1:1] = ["--proxy", o["proxy"]]
         if o["cookies"]:
             cmd[1:1] = ["--cookies-from-browser", o["cookies"]]
         res = subprocess.run(cmd, capture_output=True, text=True)
