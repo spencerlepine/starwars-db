@@ -73,6 +73,31 @@ Cloud session, 2026-11-01, yt-dlp 2026.10.26:
   - recent yt-dlp also wants a JavaScript runtime for YouTube (`deno`;
     `pip install deno` works).
 
+## Download options compared (2026-11-01, second cloud session)
+
+Tested from the cloud again with yt-dlp 2026.10.26:
+
+| Route | Result from the cloud | Verdict |
+|---|---|---|
+| yt-dlp direct | 429 then "Video unavailable" / "Sign in to confirm you're not a bot" | Blocked by YouTube on datacenter IPs |
+| Piped API instances | Every live instance returned `SignInConfirmNotBotException` (the instance's own IP is blocked too); most others are down (502/526) | Not reliable |
+| Invidious API instances | 401/403 or down; public instances no longer serve video APIs | Not reliable |
+| cobalt (api.cobalt.tools) | Public API now needs a Turnstile/JWT token tied to a browser | Not usable from scripts |
+| Paid residential proxies | Not tried on purpose | Ruled out |
+
+The front-ends all hit the same YouTube player endpoints from their own
+servers, so they inherit the same IP block. The route that works is the
+existing script on a home connection, where YouTube sees a normal user:
+
+1. **Plain run on your own machine** (recommended). Nothing extra needed.
+2. **Same, with `--cookies-from-browser firefox`** (or chrome/safari) if
+   the plain run gets bot-checked at home. This uses your own signed-in
+   browser session, so only do it on your machine. A throwaway Google
+   account is safer than your main one.
+
+The script now stops after 3 bot-check failures in a row (`--max-blocked`)
+so a blocked run does not keep hitting YouTube; re-running resumes.
+
 ## What is already in the database (from phase one)
 
 - `database/soundtrack_albums.csv`: the 6 saga soundtrack albums
