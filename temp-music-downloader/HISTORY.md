@@ -1,0 +1,10 @@
+- 2026-11-01 0e5c028 Add collector for original film SFX (writes audio only into private starwars-db)
+- 2026-11-01 21719c9 Add resumable yt-dlp music downloader that writes audio paths into the DB
+- 2026-11-01 05ace91 Add CC0 sci-fi SFX packs, synthesized Star Wars-style SFX and manifest
+- 2026-11-01 39717ad Record phase one results
+- 2026-11-01 c707eb5 Complete verification: 89/89 tracks matched, album playlists recorded
+- 2026-11-01 8e8dc7a Verify more candidates; 86/89 tracks matched
+- 2026-11-01 bba472b Add oEmbed verification results, ingest and export tools
+- 2026-10-31 fa3ca92 Add YouTube search candidates for all 89 soundtrack tracks
+- 2026-10-31 b10e18e Add soundtrack track lists and YouTube curation tooling
+- 2026-10-31 b15b4ae Initial commit
