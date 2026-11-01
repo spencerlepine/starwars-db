@@ -56,6 +56,12 @@
   stands in for (`star_wars_analog`), an `essential` flag, and a `path`
   relative to `database/` (files live in `database/sounds/`). All files are
   CC0: Kenney sci-fi/digital packs plus sounds synthesized in `sw-music-sfx`.
+  Rows with ids `sfx:original:*` (files in `database/sounds/original/`) are
+  the original film sounds and voice clips collected from public GitHub
+  soundboards for personal reference only (`license` says reference-only;
+  Lucasfilm copyright, not for shipping). Categories include `lightsaber`,
+  `blaster`, `droid`, `wookiee`, `vader_breathing`, `creature`, `scream`,
+  `force` and `dialogue`.
 - `database/sound_effect_entities.csv` links sounds to entities as
   `(sfx_id, entity_id, relationship)`.
 - `entities.csv` retains the original `image_path` and `image_status` fields.
