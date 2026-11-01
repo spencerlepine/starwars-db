@@ -53,3 +53,28 @@ fills `audio_path`, `audio_duration_seconds`, `audio_bitrate_kbps`,
 checkpoints after every track and skips existing files, so it can be resumed.
 Expect ~400 MB for everything at 128 kbps; consider Git LFS for `*.mp3`
 before committing. Tested end to end against a stubbed yt-dlp only.
+
+### 2026-11-01: EC2 run through Cloudflare WARP (proxy mode)
+
+Ubuntu box (t3.small), yt-dlp 2026.10.26 + deno 2.9.8 + yt-dlp-ejs 0.8.0
+(the EJS solver was needed; without it yt-dlp warned that signature/n
+challenge solving failed). WARP proxy mode on 127.0.0.1:40000.
+
+- Smoke test: first try hit "Sign in to confirm you're not a bot"; passed
+  after one WARP reconnect (`324|Main Title`).
+- Essential pass: 44 of 46 downloaded. The full pass then got bot-checked
+  3 times in a row (phantom-menace 04/05/06) and stopped, as designed.
+- Result: **62 of 89 tracks ok**, 270 MB, no duration warnings. Pushed as
+  plain git files, one commit per film (ea58db5 .. d2f60b8).
+- Video unavailable (dead or region-locked uploads, need a new video):
+  `empire-strikes-back:04` (Mu8_4cn3c08), `attack-clones:13`
+  (vkBnGJX2VUQ, essential).
+- `return-jedi:05`: M1_Cfi5K0Iw was unavailable; spencer picked
+  S68MG3KcZTU (Soundtrack Studio, 241s vs album 250s) instead. The CSV now
+  points at it as `fan_upload`; not downloaded yet.
+- Bot-checked: `phantom-menace:04`, `:05`, `:06`.
+- Never attempted (run stopped first): phantom-menace 07, 08, 10, 11, 12,
+  13, 16; attack-clones 04-11; revenge-sith 02, 06, 07, 08, 12, 13.
+- 27 rows left in total (2 essential + return-jedi:05). Re-running
+  `download_music.py` from a home connection resumes and only fetches
+  those.
